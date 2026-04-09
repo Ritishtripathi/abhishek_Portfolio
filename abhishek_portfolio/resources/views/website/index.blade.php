@@ -1,5 +1,32 @@
 ﻿@extends('website.layouts.app')
 @section('content')
+  <div class="stick_follow_icon">
+  <ul>
+
+    <!-- EMAIL -->
+    <li>
+      <a href="mailto:abhit.abhishek@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+      </a>
+    </li>
+
+    <!-- WHATSAPP -->
+    <li>
+      <a href="https://wa.me/919891811593" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+      </a>
+    </li>
+
+    <!-- LINKEDIN -->
+    <li>
+      <a href="https://www.linkedin.com/in/abhiitmct/" target="_blank">
+        <i class="fa-brands fa-linkedin-in"></i>
+      </a>
+    </li>
+
+  </ul>
+  <p>Contact us</p>
+</div>
   <!-- ===============>> Banner section start here <<================= -->
   <section class="banner banner--style1  bg--cover bg-color-3"
     style="background-image: url('{{ asset('website/images/bg/4.png') }}')">
@@ -15,33 +42,12 @@
                 solutions.
               </p>
               <div class="banner__content-btngroup">
-                <a href="www.spiretecsolutions.com" class="trk-btn trk-btn--border trk-btn--primary1 trk-btn--arrow">Let's
-                  Start Today
+                <a href="www.spiretecsolutions.com" class="trk-btn trk-btn--border trk-btn--primary1 trk-btn--arrow">Download CV
                   <span><i class="fa-solid fa-arrow-right"></i></span> </a>
                 <a href="https://youtu.be/H1HbW4Lv_Hc?si=VVzWpUrIvHJ7t_S7" class="playbtn" data-fslightbox="">
                   <span class="playbtn__thumb"><i class="fa-solid fa-play"></i></span>
                   <span class="playbtn__content">Watch Video</span>
                 </a>
-              </div>
-              <div class="banner__content-social">
-                <p>Follow Us</p>
-                <ul class="social">
-                  <li class="social__item">
-                    <a href="#" class="social__link social__link--style1 active"><i class="fab fa-facebook-f"></i></a>
-                  </li>
-                  <li class="social__item">
-                    <a href="#" class="social__link social__link--style1"><i class="fab fa-linkedin-in"></i></a>
-                  </li>
-                  <li class="social__item">
-                    <a href="#" class="social__link social__link--style1"><i class="fab fa-instagram"></i></a>
-                  </li>
-                  <li class="social__item">
-                    <a href="#" class="social__link social__link--style1"><i class="fab fa-youtube"></i></a>
-                  </li>
-                  <li class="social__item">
-                    <a href="signin.html" class="social__link social__link--style1"><i class="fab fa-twitter"></i></a>
-                  </li>
-                </ul>
               </div>
             </div>
           </div>
@@ -87,7 +93,8 @@
             <div class="swiper-slide">
               <div class="partner__item">
                 <div class="partner__item-inner">
-                  <img src="https://prod.mct.pvue2.com/assets/icons/MCTBadges.png" style="height: 30px;" alt="partner logo">
+                  <img src="https://prod.mct.pvue2.com/assets/icons/MCTBadges.png" style="height: 30px;"
+                    alt="partner logo">
                 </div>
               </div>
             </div>
@@ -101,21 +108,25 @@
             <div class="swiper-slide">
               <div class="partner__item">
                 <div class="partner__item-inner">
-                  <img src="https://solutionsreview.com/cloud-platforms/files/2019/06/oie_OkC1XJtADIPw.png" style="height: 30px;" alt="partner logo">
+                  <img src="https://solutionsreview.com/cloud-platforms/files/2019/06/oie_OkC1XJtADIPw.png"
+                    style="height: 30px;" alt="partner logo">
                 </div>
               </div>
             </div>
             <div class="swiper-slide">
               <div class="partner__item">
                 <div class="partner__item-inner">
-                  <img src="https://miro.medium.com/1*T59fnCvp71WqNeuytWGorA.png" style="height: 30px;" alt="partner logo">
+                  <img src="https://miro.medium.com/1*T59fnCvp71WqNeuytWGorA.png" style="height: 30px;"
+                    alt="partner logo">
                 </div>
               </div>
             </div>
             <div class="swiper-slide">
               <div class="partner__item">
                 <div class="partner__item-inner">
-                  <img src="https://www.cyberyami.com/_next/image?url=https%3A%2F%2Fcyberyami-mern-bucket-prod-new.s3.ap-south-1.amazonaws.com%2FOqM6r_dvxdt7HG1TTIfF7.png&w=3840&q=75" style="height: 30px;" alt="partner logo">
+                  <img
+                    src="https://www.cyberyami.com/_next/image?url=https%3A%2F%2Fcyberyami-mern-bucket-prod-new.s3.ap-south-1.amazonaws.com%2FOqM6r_dvxdt7HG1TTIfF7.png&w=3840&q=75"
+                    style="height: 30px;" alt="partner logo">
                 </div>
               </div>
             </div>
@@ -389,7 +400,7 @@
               <div class="service__item-inner text-center">
                 <div class="service__thumb mb-30">
                   <div class="service__thumb-inner">
-                    <img class="dark" src="{{ asset('website/images/service/1.png') }}" alt="service-icon">
+                    <i class="fas fa-cloud fa-3x"></i>
                   </div>
                 </div>
                 <div class="service__content">
@@ -407,7 +418,7 @@
               <div class="service__item-inner text-center">
                 <div class="service__thumb mb-30">
                   <div class="service__thumb-inner">
-                    <img class="dark" src="{{ asset('website/images/service/2.png') }}" alt="service-icon">
+                    <i class="fas fa-chalkboard-teacher fa-3x"></i>
                   </div>
                 </div>
                 <div class="service__content">
@@ -425,7 +436,7 @@
               <div class="service__item-inner text-center">
                 <div class="service__thumb mb-30">
                   <div class="service__thumb-inner">
-                    <img class="dark" src="{{ asset('website/images/service/3.png') }}" alt="service-icon">
+                    <i class="fas fa-code fa-3x"></i>
                   </div>
                 </div>
                 <div class="service__content">
@@ -443,7 +454,7 @@
               <div class="service__item-inner text-center">
                 <div class="service__thumb mb-30">
                   <div class="service__thumb-inner">
-                    <img class="dark" src="{{ asset('website/images/service/4.png') }}" alt="service-icon">
+                    <i class="fas fa-shield-alt fa-3x"></i>
                   </div>
                 </div>
                 <div class="service__content">
@@ -461,7 +472,7 @@
               <div class="service__item-inner text-center">
                 <div class="service__thumb mb-30">
                   <div class="service__thumb-inner">
-                    <img class="dark" src="{{ asset('website/images/service/5.png') }}" alt="service-icon">
+                    <i class="fas fa-bullhorn fa-3x"></i>
                   </div>
                 </div>
                 <div class="service__content">
@@ -479,7 +490,7 @@
               <div class="service__item-inner text-center">
                 <div class="service__thumb mb-30">
                   <div class="service__thumb-inner">
-                    <img class="dark" src="{{ asset('website/images/service/6.png') }}" alt="service-icon">
+                    <i class="fas fa-chart-line fa-3x"></i>
                   </div>
                 </div>
                 <div class="service__content">
@@ -503,418 +514,6 @@
     </div>
   </section>
   <!-- ===============>> Service section end here <<================= -->
-
-
-  <!-- ===============>> Pricing section start here <<================= -->
-  <section class="pricing padding-top padding-bottom bg-color-4">
-    <div class="section-header section-header--max50">
-      <h2 class="mb-15 mt-minus-10"><span>Plans</span> Training & Services</h2>
-      <p>Flexible training and IT service plans designed to help individuals and businesses grow with modern technologies.
-      </p>
-    </div>
-
-    <div class="container">
-      <div class="pricing__wrapper">
-        <div class="row g-4 align-items-center">
-
-          <!-- Basic Plan -->
-          <div class="col-md-6 col-lg-4">
-            <div class="pricing__item" data-aos="fade-right" data-aos-duration="1000">
-              <div class="pricing__item-inner">
-                <div class="pricing__item-content">
-
-                  <div class="pricing__item-top">
-                    <h6 class="mb-15">Starter</h6>
-                    <h3 class="mb-25">₹4,999<span>/Course</span></h3>
-                  </div>
-
-                  <div class="pricing__item-middle">
-                    <ul class="pricing__list">
-                      <li class="pricing__list-item">
-                        <span><img src="{{ asset('website/images/icon/check.svg') }}" alt="check" class="dark"></span>
-                        Basic IT Training Access
-                      </li>
-                      <li class="pricing__list-item">
-                        <span><img src="{{ asset('website/images/icon/check.svg') }}" alt="check" class="dark"></span>
-                        Recorded Sessions
-                      </li>
-                      <li class="pricing__list-item">
-                        <span><img src="{{ asset('website/images/icon/check.svg') }}" alt="check" class="dark"></span>
-                        Certificate of Completion
-                      </li>
-                      <li class="pricing__list-item">
-                        <span><img src="{{ asset('website/images/icon/check.svg') }}" alt="check" class="dark"></span>
-                        Email Support
-                      </li>
-                    </ul>
-                  </div>
-
-                  <div class="pricing__item-bottom">
-                    <a href="#" class="trk-btn trk-btn--outline">Get Started</a>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Standard Plan -->
-          <div class="col-md-6 col-lg-4">
-            <div class="pricing__item" data-aos="fade-up" data-aos-duration="1000">
-              <div class="pricing__item-inner active">
-                <div class="pricing__item-content">
-
-                  <div class="pricing__item-top">
-                    <h6 class="mb-15">Professional</h6>
-                    <h3 class="mb-25">₹9,999<span>/Course</span></h3>
-                  </div>
-
-                  <div class="pricing__item-middle">
-                    <ul class="pricing__list">
-                      <li class="pricing__list-item">
-                        <span><img src="{{ asset('website/images/icon/check.svg') }}" alt="check" class="dark"></span>
-                        Live Interactive Classes
-                      </li>
-                      <li class="pricing__list-item">
-                        <span><img src="{{ asset('website/images/icon/check.svg') }}" alt="check" class="dark"></span>
-                        Unlimited Learning Access
-                      </li>
-                      <li class="pricing__list-item">
-                        <span><img src="{{ asset('website/images/icon/check.svg') }}" alt="check" class="dark"></span>
-                        Hands-on Practical Projects
-                      </li>
-                      <li class="pricing__list-item">
-                        <span><img src="{{ asset('website/images/icon/check.svg') }}" alt="check" class="dark"></span>
-                        24/7 Support
-                      </li>
-                      <li class="pricing__list-item">
-                        <span><img src="{{ asset('website/images/icon/check.svg') }}" alt="check" class="dark"></span>
-                        Career Guidance
-                      </li>
-                    </ul>
-                  </div>
-
-                  <div class="pricing__item-bottom">
-                    <a href="#" class="trk-btn trk-btn--outline active">Choose Plan</a>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Premium Plan -->
-          <div class="col-md-6 col-lg-4">
-            <div class="pricing__item" data-aos="fade-left" data-aos-duration="1000">
-              <div class="pricing__item-inner">
-                <div class="pricing__item-content">
-
-                  <div class="pricing__item-top">
-                    <h6 class="mb-15">Enterprise</h6>
-                    <h3 class="mb-25">Custom<span>/Project</span></h3>
-                  </div>
-
-                  <div class="pricing__item-middle">
-                    <ul class="pricing__list">
-                      <li class="pricing__list-item">
-                        <span><img src="{{ asset('website/images/icon/check.svg') }}" alt="check" class="dark"></span>
-                        Corporate Training Programs
-                      </li>
-                      <li class="pricing__list-item">
-                        <span><img src="{{ asset('website/images/icon/check.svg') }}" alt="check" class="dark"></span>
-                        IT Consulting & Solutions
-                      </li>
-                      <li class="pricing__list-item">
-                        <span><img src="{{ asset('website/images/icon/check.svg') }}" alt="check" class="dark"></span>
-                        Web & App Development
-                      </li>
-                      <li class="pricing__list-item">
-                        <span><img src="{{ asset('website/images/icon/check.svg') }}" alt="check" class="dark"></span>
-                        Dedicated Support & Maintenance
-                      </li>
-                    </ul>
-                  </div>
-
-                  <div class="pricing__item-bottom">
-                    <a href="#" class="trk-btn trk-btn--outline">Contact Now</a>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- ===============>> Pricing section end here <<================= -->
-
-
-
-
-  <!-- ===============>> Team section start here <<================= -->
-  <section class="team padding-top padding-bottom bg-color-2">
-    <div class="section-header section-header--max50">
-      <h2 class="mb-15 mt-minus-10">Meet Our <span>Core Team</span></h2>
-      <p>A passionate team driving innovation, development, and digital transformation.</p>
-    </div>
-
-    <div class="container">
-      <div class="team__wrapper">
-        <div class="row g-4 align-items-center">
-
-          <!-- Chitra Kumari -->
-          <div class="col-sm-6 col-lg-3">
-            <div class="team__item team__item--shape" data-aos="fade-up" data-aos-duration="800">
-              <div class="team__item-inner team__item-inner--shape">
-                <div class="team__item-thumb team__item-thumb--style1">
-                  <img src="{{ asset('https://spireweb.co.in/assets/images/chitra.png') }}" style="height: 310px;" alt="Team Image">
-                </div>
-                <div class="team__item-content team__item-content--style1">
-                  <div class="team__item-author team__item-author--style1">
-                    <div class="team__item-authorinfo">
-                      <h6 class="mb-1"><a href="#" class="stretched-link">Chitra Kumari</a></h6>
-                      <p class="mb-0">CEO</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="team__item-shape">
-                  <span class="team__item-shape1">
-                    <img src="{{ asset('website/images/team/icon/1.png') }}" alt="shape-icon">
-                  </span>
-                  <span class="team__item-shape2">
-                    <img src="{{ asset('website/images/team/icon/2.png') }}" alt="shape-icon">
-                  </span>
-                  <span class="team__item-shape3">
-                    <img src="{{ asset('website/images/team/icon/3.png') }}" alt="shape-icon">
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Abhishek Kumar -->
-          <div class="col-sm-6 col-lg-3">
-            <div class="team__item team__item--shape" data-aos="fade-up" data-aos-duration="1100">
-              <div class="team__item-inner team__item-inner--shape">
-                <div class="team__item-thumb team__item-thumb--style1">
-                  <img src="{{ asset('https://www.businessoutreach.in/wp-content/uploads/2024/04/Meet-Abhishek-Kumar-Defining-Corporate-Upskilling-Methods-With-SpireTec-Solutions.webp') }}" style="height: 310px;" alt="Team Image">
-                </div>
-                <div class="team__item-content team__item-content--style1">
-                  <div class="team__item-author team__item-author--style1">
-                    <div class="team__item-authorinfo">
-                      <h6 class="mb-1"><a href="#" class="stretched-link">Abhishek Kumar</a></h6>
-                      <p class="mb-0">Founder & Technical Consultant</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="team__item-shape">
-                  <span class="team__item-shape1">
-                    <img src="{{ asset('website/images/team/icon/1.png') }}" alt="shape-icon">
-                  </span>
-                  <span class="team__item-shape2">
-                    <img src="{{ asset('website/images/team/icon/2.png') }}" alt="shape-icon">
-                  </span>
-                  <span class="team__item-shape3">
-                    <img src="{{ asset('website/images/team/icon/3.png') }}" alt="shape-icon">
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Ritish Tripathi -->
-          <div class="col-sm-6 col-lg-3">
-            <div class="team__item team__item--shape" data-aos="fade-up" data-aos-duration="900">
-              <div class="team__item-inner team__item-inner--shape">
-                <div class="team__item-thumb team__item-thumb--style1">
-                  <img src="{{ asset('https://www.spiretecsolutions.com/uploads/ourMinds/17578255941291406711.png') }}" style="height: 310px;" alt="Team Image">
-                </div>
-                <div class="team__item-content team__item-content--style1">
-                  <div class="team__item-author team__item-author--style1">
-                    <div class="team__item-authorinfo">
-                      <h6 class="mb-1"><a href="#" class="stretched-link">Ritish Tripathi</a></h6>
-                      <p class="mb-0">Senior Web Developer</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="team__item-shape">
-                  <span class="team__item-shape1">
-                    <img src="{{ asset('website/images/team/icon/1.png') }}" alt="shape-icon">
-                  </span>
-                  <span class="team__item-shape2">
-                    <img src="{{ asset('website/images/team/icon/2.png') }}" alt="shape-icon">
-                  </span>
-                  <span class="team__item-shape3">
-                    <img src="{{ asset('website/images/team/icon/3.png') }}" alt="shape-icon">
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Parvez -->
-          <div class="col-sm-6 col-lg-3">
-            <div class="team__item team__item--shape" data-aos="fade-up" data-aos-duration="1000">
-              <div class="team__item-inner team__item-inner--shape">
-                <div class="team__item-thumb team__item-thumb--style1">
-                  <img src="{{ asset('website/images/team/3.png') }}" alt="Team Image">
-                </div>
-                <div class="team__item-content team__item-content--style1">
-                  <div class="team__item-author team__item-author--style1">
-                    <div class="team__item-authorinfo">
-                      <h6 class="mb-1"><a href="#" class="stretched-link">Parvez</a></h6>
-                      <p class="mb-0">Full Stack Developer</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="team__item-shape">
-                  <span class="team__item-shape1">
-                    <img src="{{ asset('website/images/team/icon/1.png') }}" alt="shape-icon">
-                  </span>
-                  <span class="team__item-shape2">
-                    <img src="{{ asset('website/images/team/icon/2.png') }}" alt="shape-icon">
-                  </span>
-                  <span class="team__item-shape3">
-                    <img src="{{ asset('website/images/team/icon/3.png') }}" alt="shape-icon">
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- ===============>> Team section end here <<================= -->
-
-
-
-  <!-- ===============>> Blog / Insights section start here <<================= -->
-  <section class="blog padding-top padding-bottom bg-color-4">
-    <div class="container">
-      <div class="section-header d-md-flex align-items-center justify-content-between">
-        <div class="section-header__content">
-          <h2 class="mb-15 mt-minus-10"><span>Insights</span> & Expertise</h2>
-          <p class="mb-0">
-            Sharing knowledge, industry insights, and practical strategies on Microsoft technologies, cloud solutions,
-            cybersecurity, and digital transformation.
-          </p>
-        </div>
-        <div class="section-header__action">
-          <div class="swiper-nav swiper-nav--style1">
-            <button class="swiper-nav__btn blog__slider-prev"><i class="fa-solid fa-angle-left"></i></button>
-            <button class="swiper-nav__btn blog__slider-next active"><i class="fa-solid fa-angle-right"></i></button>
-          </div>
-        </div>
-      </div>
-
-      <div class="blog__wrapper" data-aos="fade-up" data-aos-duration="1000">
-        <div class="blog__slider swiper">
-          <div class="swiper-wrapper">
-
-            <!-- Blog 1 -->
-            <div class="swiper-slide">
-              <div class="blog__item blog__item--style2">
-                <div class="blog__item-inner">
-                  <div class="blog__thumb">
-                    <img src="{{ asset('website/images/blog/1.png') }}" alt="blog Images">
-                  </div>
-
-                  <div class="blog__content">
-                    <div class="blog__meta">
-                      <span class="blog__meta-tag blog__meta-tag--style1">Microsoft Azure</span>
-                    </div>
-                    <h5> <a href="#">Cloud Transformation with Azure</a> </h5>
-
-                    <p class="mb-15">
-                      Learn how organizations can leverage Microsoft Azure to modernize infrastructure, improve
-                      scalability, and enhance security.
-                    </p>
-
-                    <div class="blog__writer">
-                      <div class="blog__writer-designation">
-                        <p class="mb-0">Abhishek Kumar</p>
-                        <span>Tech Consultant</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Blog 2 -->
-            <div class="swiper-slide">
-              <div class="blog__item blog__item--style2">
-                <div class="blog__item-inner">
-                  <div class="blog__thumb">
-                    <img src="{{ asset('website/images/blog/2.png') }}" alt="blog Images">
-                  </div>
-
-                  <div class="blog__content">
-                    <div class="blog__meta">
-                      <span class="blog__meta-tag blog__meta-tag--style1">Cyber Security</span>
-                    </div>
-                    <h5> <a href="#">Strengthening Security in Modern Workplace</a> </h5>
-
-                    <p class="mb-15">
-                      Discover best practices to secure your Microsoft 365 environment, protect identities, and prevent
-                      cyber threats effectively.
-                    </p>
-
-                    <div class="blog__writer">
-                      <div class="blog__writer-designation">
-                        <p class="mb-0">Abhishek Kumar</p>
-                        <span>Security Specialist</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Blog 3 -->
-            <div class="swiper-slide">
-              <div class="blog__item blog__item--style2">
-                <div class="blog__item-inner">
-                  <div class="blog__thumb">
-                    <img src="{{ asset('website/images/blog/3.png') }}" alt="blog Images">
-                  </div>
-
-                  <div class="blog__content">
-                    <div class="blog__meta">
-                      <span class="blog__meta-tag blog__meta-tag--style1">Power Platform</span>
-                    </div>
-                    <h5> <a href="#">Boost Productivity with Power Platform</a> </h5>
-
-                    <p class="mb-15">
-                      Explore how Power BI, Power Apps, and Power Automate can streamline workflows and drive smarter
-                      business decisions.
-                    </p>
-
-                    <div class="blog__writer">
-                      <div class="blog__writer-designation">
-                        <p class="mb-0">Abhishek Kumar</p>
-                        <span>Power Platform Expert</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-
-      <div class="text-center">
-        <a href="#" class="trk-btn trk-btn--border trk-btn--primary1 mt-15">View More Insights</a>
-      </div>
-    </div>
-  </section>
-  <!-- ===============>> Blog section end here <<================= -->
 
 
 
@@ -1069,174 +668,6 @@
     </div>
   </section>
   <!-- ===============>> Testimonial section end here <<================= -->
-
-
-
-
-  <!-- ===============>> FAQ section start here <<================= -->
-  <section class="faq padding-top padding-bottom of-hidden bg-color-4">
-    <div class="section-header section-header--max57">
-      <h2 class="mb-15 mt-minus-10"><span>Frequently</span> Asked Questions</h2>
-      <p>
-        Have questions about training, consulting, or Microsoft technologies? Here are some common queries to help you
-        understand how I can support your learning and business needs.
-      </p>
-    </div>
-
-    <div class="container">
-      <div class="faq__wrapper">
-        <div class="row g-5 align-items-center justify-content-between">
-
-          <!-- FAQ LEFT -->
-          <div class="col-lg-6">
-            <div class="accordion accordion--style1" id="faqAccordion1" data-aos="fade-right" data-aos-duration="1000">
-              <div class="row">
-
-                <!-- Q1 -->
-                <div class="col-12">
-                  <div class="accordion__item">
-                    <div class="accordion__header" id="faq1">
-                      <button class="accordion__button" type="button" data-bs-toggle="collapse" data-bs-target="#faqBody1"
-                        aria-expanded="true">
-                        <span class="accordion__button-content">What services do you offer?</span>
-                        <span class="accordion__button-plusicon"></span>
-                      </button>
-                    </div>
-                    <div id="faqBody1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion1">
-                      <div class="accordion__body">
-                        <p>
-                          I provide professional training, consulting, and implementation services in Microsoft Azure,
-                          Microsoft 365, Security, Power Platform, and cloud-based solutions.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Q2 -->
-                <div class="col-12">
-                  <div class="accordion__item">
-                    <div class="accordion__header" id="faq2">
-                      <button class="accordion__button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#faqBody2">
-                        <span class="accordion__button-content">Do you provide corporate training?</span>
-                        <span class="accordion__button-plusicon"></span>
-                      </button>
-                    </div>
-                    <div id="faqBody2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion1">
-                      <div class="accordion__body">
-                        <p>
-                          Yes, I conduct customized corporate training sessions for teams and organizations, focusing on
-                          real-world use cases and hands-on practical learning.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Q3 -->
-                <div class="col-12">
-                  <div class="accordion__item">
-                    <div class="accordion__header" id="faq3">
-                      <button class="accordion__button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#faqBody3">
-                        <span class="accordion__button-content">Which technologies do you specialize in?</span>
-                        <span class="accordion__button-plusicon"></span>
-                      </button>
-                    </div>
-                    <div id="faqBody3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion1">
-                      <div class="accordion__body">
-                        <p>
-                          My expertise includes Microsoft Azure, Microsoft 365, Cyber Security, Identity & Access
-                          Management, Power BI, Power Apps, and cloud-based digital transformation solutions.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Q4 -->
-                <div class="col-12">
-                  <div class="accordion__item">
-                    <div class="accordion__header" id="faq4">
-                      <button class="accordion__button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#faqBody4">
-                        <span class="accordion__button-content">Can you help with cloud migration?</span>
-                        <span class="accordion__button-plusicon"></span>
-                      </button>
-                    </div>
-                    <div id="faqBody4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion1">
-                      <div class="accordion__body">
-                        <p>
-                          Absolutely. I assist organizations in migrating their infrastructure and applications to the
-                          cloud securely while ensuring performance and scalability.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Q5 -->
-                <div class="col-12">
-                  <div class="accordion__item">
-                    <div class="accordion__header" id="faq5">
-                      <button class="accordion__button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#faqBody5">
-                        <span class="accordion__button-content">Do you offer online and offline training?</span>
-                        <span class="accordion__button-plusicon"></span>
-                      </button>
-                    </div>
-                    <div id="faqBody5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion1">
-                      <div class="accordion__body">
-                        <p>
-                          Yes, I offer both online live sessions and offline classroom training depending on your
-                          requirement and location.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Q6 -->
-                <div class="col-12">
-                  <div class="accordion__item border-0">
-                    <div class="accordion__header" id="faq6">
-                      <button class="accordion__button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#faqBody6">
-                        <span class="accordion__button-content">How can I contact or work with you?</span>
-                        <span class="accordion__button-plusicon"></span>
-                      </button>
-                    </div>
-                    <div id="faqBody6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion1">
-                      <div class="accordion__body">
-                        <p>
-                          You can reach out through the contact section of this website for consulting, training, or
-                          collaboration opportunities.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-          </div>
-
-          <!-- FAQ RIGHT IMAGE -->
-          <div class="col-lg-6">
-            <div class="faq__thumb" data-aos="fade-left" data-aos-duration="1000">
-              <img class="dark" src="{{ asset('website/images/others/1.png') }}" alt="faq-thumb">
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- ===============>> FAQ section end here <<================= -->
-
-
-
 
 
   <!-- ===============>> cta section start here <<================= -->

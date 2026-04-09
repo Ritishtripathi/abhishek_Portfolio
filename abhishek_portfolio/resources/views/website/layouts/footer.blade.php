@@ -112,15 +112,11 @@
                                         class="fab fa-facebook-f"></i></a>
                             </li>
                             <li class="social__item">
-                                <a href="#" class="social__link social__link--style2 "><i
-                                        class="fab fa-instagram"></i></a>
-                            </li>
-                            <li class="social__item">
-                                <a href="#" class="social__link social__link--style2"><i
+                                <a href="https://www.linkedin.com/in/abhiitmct/" class="social__link social__link--style2"><i
                                         class="fa-brands fa-linkedin-in"></i></a>
                             </li>
                             <li class="social__item">
-                                <a href="#" class="social__link social__link--style2"><i class="fab fa-youtube"></i></a>
+                                <a href="https://www.youtube.com/@spiretecsolutions" class="social__link social__link--style2"><i class="fab fa-youtube"></i></a>
                             </li>
                             <li class="social__item">
                                 <a href="signin.html" class="social__link social__link--style2 d-sm-none d-md-block"><i
@@ -168,7 +164,39 @@
 <script src="{{ asset('website/js/fslightbox.js') }}"></script>
 <script src="{{ asset('website/js/purecounter_vanilla.js') }}"></script>
 
+<script>
+document.addEventListener("DOMContentLoaded", function () {
 
+  const dot = document.querySelector(".cursor-dot");
+  const ring = document.querySelector(".cursor-ring");
+
+  let mouseX = 0;
+  let mouseY = 0;
+  let ringX = 0;
+  let ringY = 0;
+
+  document.addEventListener("mousemove", function(e) {
+    mouseX = e.clientX;
+    mouseY = e.clientY;
+
+    dot.style.left = mouseX + "px";
+    dot.style.top = mouseY + "px";
+  });
+
+  function animate() {
+    ringX += (mouseX - ringX) * 0.1;
+    ringY += (mouseY - ringY) * 0.1;
+
+    ring.style.left = ringX + "px";
+    ring.style.top = ringY + "px";
+
+    requestAnimationFrame(animate);
+  }
+
+  animate();
+
+});
+</script>
 
 <script src="{{ asset('website/js/custom.js') }}"></script>
 
