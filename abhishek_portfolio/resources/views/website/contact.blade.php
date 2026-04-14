@@ -44,7 +44,7 @@
               <div class="contact__social">
                 <h3>let’s <span>get in touch</span>
                   with us</h3>
-               
+
               </div>
               <div class="contact__details">
                 <div class="contact__item" data-aos="fade-right" data-aos-duration="1000">
@@ -84,21 +84,22 @@
                     </div>
                   </div>
                 </div>
-                 <ul class="social">
+                <ul class="social" data-aos="fade-right">
+
+                  <!-- WHATSAPP BUTTON -->
                   <li class="social__item">
-                    <a href="#" class="social__link social__link--style1"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://wa.me/919891811593" target="_blank" class="hire-btn whatsapp-btn">
+                      <i class="fa-brands fa-whatsapp"></i> WhatsApp Me
+                    </a>
                   </li>
+
+                  <!-- LINKEDIN BUTTON -->
                   <li class="social__item">
-                    <a href="https://www.linkedin.com/in/abhiitmct/" class="social__link social__link--style1 "><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://www.linkedin.com/in/abhiitmct/" target="_blank" class="hire-btn linkedin-btn">
+                      <i class="fa-brands fa-linkedin-in"></i> Connect
+                    </a>
                   </li>
-                  <li class="social__item">
-                    <a href="https://www.youtube.com/@spiretecsolutions" class="social__link social__link--style1 d-sm-none d-xl-block"><i
-                        class="fab fa-youtube"></i></a>
-                  </li>
-                  <li class="social__item">
-                    <a href="signin.html" class="social__link social__link--style1 d-sm-none d-xl-block"><i
-                        class="fab fa-twitter"></i></a>
-                  </li>
+
                 </ul>
               </div>
             </div>
@@ -119,7 +120,7 @@
                       <input class="form-control" type="email" id="email" placeholder="Email here">
                     </div>
                   </div>
-                   <div class="col-12">
+                  <div class="col-12">
                     <div>
                       <label for="email" class="form-label">Contact</label>
                       <input class="form-control" type="text" id="email" placeholder="Contact here">
@@ -128,7 +129,7 @@
                   <div class="col-12">
                     <div>
                       <label for="textarea" class="form-label">Message</label>
-                     <input class="form-control" type="text" id="email" placeholder="Write your requirement here.">
+                      <input class="form-control" type="text" id="email" placeholder="Write your requirement here.">
                     </div>
                   </div>
                 </div>

@@ -35,46 +35,47 @@
   <link rel="stylesheet" href="{{ asset('website/css/lightcase.css') }}">
   <link rel="stylesheet" href="{{ asset('website/css/swiper-bundle.min.css') }}">
 
-<style>
-.custom-cursor .cursor-dot,
-.custom-cursor .cursor-ring {
-  position: fixed;
-  top: 0;
-  left: 0;
-  border-radius: 50%;
-  pointer-events: none;
-  transform: translate(-50%, -50%);
-  z-index: 999999;
-}
+  <style>
+    .custom-cursor .cursor-dot,
+    .custom-cursor .cursor-ring {
+      position: fixed;
+      top: 0;
+      left: 0;
+      border-radius: 50%;
+      pointer-events: none;
+      transform: translate(-50%, -50%);
+      z-index: 999999;
+    }
 
-/* Small dot */
-.cursor-dot {
-  width: 8px;
-  height: 8px;
-  background: red;
-}
+    /* Small dot */
+    .cursor-dot {
+      width: 8px;
+      height: 8px;
+      background: red;
+    }
 
-/* Outer circle */
-.cursor-ring {
-  width: 30px;
-  height: 30px;
-  border: 2px solid orangered;
-  transition: transform 0.15s ease-out;
-}
+    /* Outer circle */
+    .cursor-ring {
+      width: 30px;
+      height: 30px;
+      border: 2px solid orangered;
+      transition: transform 0.15s ease-out;
+    }
 
-/* Hide default cursor */
-body {
-  cursor: none;
-}</style>
+    /* Hide default cursor */
+    body {
+      cursor: none;
+    }
+  </style>
   <!-- main css for template -->
   <link rel="stylesheet" href="{{ asset('website/css/style.css') }}">
 </head>
 
 <body>
-<div class="custom-cursor">
-  <div class="cursor-dot"></div>
-  <div class="cursor-ring"></div>
-</div>
+  <div class="custom-cursor">
+    <div class="cursor-dot"></div>
+    <div class="cursor-ring"></div>
+  </div>
   <!-- ===============>> Preloader start here <<================= -->
   {{-- <div class="preloader">
     <img src="{{ asset('website/images/logo/preloader.png') }}" alt="preloader icon">
@@ -83,7 +84,8 @@ body {
 
   <!-- ===============>> light&dark switch start here <<================= -->
   <div class="lightdark-switch d-none">
-    <span class="dark-btn" id="btnSwitch"><img src="assets/images/icon/moon.svg" alt="lightdark-switch" class="swtich-icon"></span>
+    <span class="dark-btn" id="btnSwitch"><img src="assets/images/icon/moon.svg" alt="lightdark-switch"
+        class="swtich-icon"></span>
   </div>
   <!-- ===============>> light&dark switch start here <<================= -->
 
@@ -103,13 +105,12 @@ body {
                 <a href="{{ route('home') }}">Homes </a>
               </li>
               <li>
-                <a href="#0">Services</a>
+                <a href="#0">Expertise</a>
                 <ul class="submenu">
-                  <li><a href="services.html">Services</a></li>
-                  <li><a href="service-details.html">Services Details</a></li>
+                  <li><a href="">Business Consulting</a></li>
+                  <li><a href="">Skill Training</a></li>
                 </ul>
               </li>
-
               <li>
                 <a href="{{ route('about') }}">About Us</a>
               </li>

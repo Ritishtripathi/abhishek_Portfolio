@@ -1,48 +1,55 @@
 ﻿@extends('website.layouts.app')
 @section('content')
   <div class="stick_follow_icon">
-  <ul>
+    <ul>
 
-    <!-- EMAIL -->
-    <li>
-      <a href="mailto:abhit.abhishek@gmail.com">
-        <i class="fa-solid fa-envelope"></i>
-      </a>
-    </li>
+      <!-- EMAIL -->
+      <li>
+        <a href="mailto:abhit.abhishek@gmail.com">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+      </li>
 
-    <!-- WHATSAPP -->
-    <li>
-      <a href="https://wa.me/919891811593" target="_blank">
-        <i class="fa-brands fa-whatsapp"></i>
-      </a>
-    </li>
+      <!-- WHATSAPP -->
+      <li>
+        <a href="https://wa.me/919891811593" target="_blank">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+      </li>
 
-    <!-- LINKEDIN -->
-    <li>
-      <a href="https://www.linkedin.com/in/abhiitmct/" target="_blank">
-        <i class="fa-brands fa-linkedin-in"></i>
-      </a>
-    </li>
+      <!-- LINKEDIN -->
+      <li>
+        <a href="https://www.linkedin.com/in/abhiitmct/" target="_blank">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+      </li>
 
-  </ul>
-  <p>Contact us</p>
-</div>
+    </ul>
+    <p>Contact us</p>
+  </div>
   <!-- ===============>> Banner section start here <<================= -->
   <section class="banner banner--style1  bg--cover bg-color-3"
     style="background-image: url('{{ asset('website/images/bg/4.png') }}')">
     <div class="container">
       <div class="banner__wrapper">
         <div class="row gy-5 gx-4">
-          <div class="col-lg-6 col-md-6">
+          <div class="col-lg-7 col-md-7">
             <div class="banner__content" data-aos="fade-right" data-aos-duration="1000">
-              <h1 class="banner__content-heading">Hi, I'm Abhishek Kumar</h1>
+              <h1 class="banner__content-heading">
+                Abhishek Kumar
+              </h1>
+
+              <p class="banner__content-subtitle">
+                Microsoft Certified Trainer | Community Lead | Modern Workplace Consultant
+              </p>
               <p class="banner__content-moto">
-                Modern Workplace Consultant, Microsoft Certified Trainer (MCT), and Founder of SpireTec Solutions &
-                SpireWeb. We help businesses grow with cloud technologies, secure systems, and innovative digital
-                solutions.
+                Empowering organizations with 20+ years of expertise in Microsoft 365, Azure, Security, Power Platform,
+                SharePoint, Teams, Cybersecurity, and Agile solutions. Delivering smart, secure, and future-ready
+                strategies that accelerate business success.
               </p>
               <div class="banner__content-btngroup">
-                <a href="www.spiretecsolutions.com" class="trk-btn trk-btn--border trk-btn--primary1 trk-btn--arrow">Download CV
+                <a href="www.spiretecsolutions.com"
+                  class="trk-btn trk-btn--border trk-btn--primary1 trk-btn--arrow">Download CV
                   <span><i class="fa-solid fa-arrow-right"></i></span> </a>
                 <a href="https://youtu.be/H1HbW4Lv_Hc?si=VVzWpUrIvHJ7t_S7" class="playbtn" data-fslightbox="">
                   <span class="playbtn__thumb"><i class="fa-solid fa-play"></i></span>
@@ -51,7 +58,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-md-6">
+          <div class="col-lg-4 col-md-4">
             <div class="banner__thumb">
               <img src="{{ asset('website/images/bg/5.png') }}" alt="banner-thumb">
             </div>
@@ -79,10 +86,6 @@
 
   </section>
   <!-- ===============>> Banner section end here <<================= -->
-
-
-
-
 
   <!-- ===============>> partner section start here <<================= -->
   <div class="partner partner--gradient">
@@ -137,54 +140,51 @@
   </div>
   <!-- ===============>> partner section end here <<================= -->
 
-
-
-
-
   <!-- ===============>> About section start here <<================= -->
   <section class="about about--style1 bg-color-2">
     <div class="container">
       <div class="about__wrapper">
         <div class="row g-5 align-items-center">
-          <div class="col-lg-6">
+          <div class="col-lg-5">
             <div class="about__thumb" data-aos="fade-right" data-aos-duration="800">
               <div class="about__thumb-inner">
                 <div class="about__thumb-image floating-content">
                   <img class="dark" src="{{ asset('website/images/bg/6.png') }}" alt="about-image">
                   <div class="floating-content__top-left">
                     <div class="floating-content__item">
-                      <h3> <span class="purecounter" data-purecounter-start="0" data-purecounter-end="10">10</span>
+                      <h3> <span class="purecounter" data-purecounter-start="0" data-purecounter-end="19">19</span>+
                         Years
                       </h3>
-                      <p>Consulting Experience</p>
+                      <p>Experience</p>
                     </div>
                   </div>
                   <div class="floating-content__bottom-right">
                     <div class="floating-content__item">
                       <h3> <span class="purecounter" data-purecounter-start="0" data-purecounter-end="25">25K</span>K+
                       </h3>
-                      <p>Satisfied Students</p>
+                      <p>Satisfied Trainee</p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-7">
             <div class="about__content" data-aos="fade-left" data-aos-duration="800">
               <div class="about__content-inner">
                 <div class="section-header section-header--max18 mb-1">
                   <h2>Know More About Me & <span>What I Do</span></h2>
                 </div>
                 <p class="mb-0">
-                  Hello! I'm Abhishek Kumar, a Modern Workplace Consultant and Microsoft Certified Trainer (MCT) with a
-                  passion for transforming businesses through technology. I specialize in cloud solutions, cybersecurity,
-                  and digital transformation using Microsoft technologies.
+                  Microsoft Certified Trainer & Community Lead with 20+ years of experience in empowering businesses
+                  through Microsoft 365, Azure, Security, Power Platform, SharePoint, Teams, Cybersecurity, and Agile
+                  solutions. Delivering business-ready strategies that drive growth, productivity, and digital
+                  transformation.
                 </p>
                 <p class="mb-0">
-                  As the founder of SpireTec Solutions and SpireWeb, We help organizations and individuals grow by
-                  providing professional IT training, web development, and digital services. My goal is to deliver
-                  practical, result-driven solutions that enhance productivity, security, and innovation.
+                  I specialize in helping organizations modernize their workplace, strengthen security, and adopt cloud
+                  technologies with confidence. From corporate training and consulting to mentoring professionals and
+                  leading communities, my focus is to create practical solutions that deliver measurable business impact.
                 </p>
                 <a href="#" class="trk-btn trk-btn--border trk-btn--primary1 mt-25">Explore My Journey</a>
               </div>
@@ -199,8 +199,132 @@
   </section>
   <!-- ===============>> About section start here <<================= -->
 
+  <!-- ================= Skills & Experience Section Start ================= -->
+  <section class="career-section bg-color-3">
+    <div class="container">
+      <div class="career-wrapper">
 
+        <!-- Heading -->
+        <div class="section-heading text-center" data-aos="fade-up" data-aos-duration="1000">
+          <span class="sub-title">Professional Profile</span>
+          <h2>Technical Skills & Experience</h2>
+          <p>20+ years of expertise in Microsoft Technologies, Cloud Solutions, Corporate Training, and Digital
+            Transformation.</p>
+        </div>
 
+        <div class="row g-5 align-items-start">
+
+          <!-- Left Side Skills -->
+          <div class="col-lg-5">
+
+            <div class="career-skills-box" data-aos="fade-up" data-aos-duration="1000">
+
+              <h4 class="box-title">Technical Skills</h4>
+
+              <div class="skill-item">
+                <div class="skill-top"><span>Microsoft Azure</span><span>95%</span></div>
+                <div class="progress-line"><span style="width:95%"></span></div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-top"><span>Power BI</span><span>92%</span></div>
+                <div class="progress-line"><span style="width:92%"></span></div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-top"><span>Power Apps</span><span>90%</span></div>
+                <div class="progress-line"><span style="width:90%"></span></div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-top"><span>Microsoft 365</span><span>96%</span></div>
+                <div class="progress-line"><span style="width:96%"></span></div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-top"><span>SharePoint & Teams</span><span>93%</span></div>
+                <div class="progress-line"><span style="width:93%"></span></div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-top"><span>Agile & Scrum</span><span>88%</span></div>
+                <div class="progress-line"><span style="width:88%"></span></div>
+              </div>
+
+            </div>
+
+            <!-- Additional Skills -->
+            <div class="additional-skills" data-aos="fade-up" data-aos-duration="1200">
+              <h4 class="box-title">Additional Skills</h4>
+
+              <div class="skill-tags">
+                <span>ITIL</span>
+                <span>Customer Success</span>
+                <span>Leadership</span>
+                <span>Consulting</span>
+                <span>Project Delivery</span>
+                <span>Team Management</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Right Side Timeline -->
+          <div class="col-lg-7">
+            <div class="career-timeline">
+
+              <div class="timeline-card active" data-aos="fade-up" data-aos-duration="900">
+                <span class="year">Dec 2023 - Present</span>
+                <h5>Microsoft Technical Trainer - Community Lead</h5>
+                <p>Mentoring trainers, promoting MCT opportunities, and building strong Microsoft trainer communities.</p>
+              </div>
+
+              <div class="timeline-card" data-aos="fade-up" data-aos-duration="1000">
+                <span class="year">Aug 2023 - Present</span>
+                <h5>Sr. Instructor & Consultant</h5>
+                <p>Corporate training & consultancy for overseas clients on Microsoft technologies and cloud platforms.
+                </p>
+              </div>
+
+              <div class="timeline-card" data-aos="fade-up" data-aos-duration="1100">
+                <span class="year">Aug 2019 - Aug 2022</span>
+                <h5>Senior Technical Trainer - M365</h5>
+                <p>Delivered onboarding, advanced training, technical documentation, labs, and enterprise support
+                  programs.</p>
+              </div>
+
+              <div class="timeline-card" data-aos="fade-up" data-aos-duration="1200">
+                <span class="year">Apr 2016 - Jun 2017</span>
+                <h5>Technical Consultant - O365 / SharePoint</h5>
+                <p>Managed Office 365, SharePoint administration, automation workflows, migrations, and user adoption.</p>
+              </div>
+
+              <div class="timeline-card" data-aos="fade-up" data-aos-duration="1300">
+                <span class="year">2010 - 2016</span>
+                <h5>Consultant – Microsoft Technologies</h5>
+                <p>Provided global training & consultancy on SharePoint, Power BI, Office 365, Azure Security, and more.
+                </p>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="banner__shape">
+      <span class="banner__shape-item banner__shape-item--1">
+        <img src="{{ asset('website/images/banner/shape/1.png') }}" alt="shape icon">
+      </span>
+      <span class="banner__shape-item banner__shape-item--2">
+        <img src="{{ asset('website/images/banner/shape/2.png') }}" alt="shape icon">
+      </span>
+    </div>
+
+  </section>
+  <!-- ================= Skills & Experience Section End ================= -->
 
   <!-- ===============>> feature section start here <<================= -->
   <section class="feature bg-color-4">
@@ -378,8 +502,6 @@
     </div>
   </section>
   <!-- ===============>> feature section end here <<================= -->
-
-
 
 
   <!-- ===============>> Service section start here <<================= -->

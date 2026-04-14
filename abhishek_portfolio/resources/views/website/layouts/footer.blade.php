@@ -6,39 +6,30 @@
                 <div class="row gy-5 gx-4">
                     <div class="col-lg-6 col-md-5">
                         <div class="footer__about">
-                            <a href="#" class="footer__about-logo"><img src="{{ asset('website/images/logo/Logo-white.png') }}" style="height: 40px;" alt="Logo"></a>
-                            <p class="footer__about-moto ">Welcome to our portfolio We offer the best, IT trainig & certifications most
+                            <a href="#" class="footer__about-logo"><img
+                                    src="{{ asset('website/images/logo/Logo-white.png') }}" style="height: 40px;"
+                                    alt="Logo"></a>
+                            <p class="footer__about-moto ">Welcome to our portfolio We offer the best, IT trainig &
+                                certifications most
                                 affordable certifications program.</p>
-                            <div class="footer__app">
-                                <div class="footer__app-item footer__app-item--apple">
-                                    <div class="footer__app-inner">
-                                        <div class="footer__app-thumb">
-                                            <a href="https://www.spiretecsolutions.com" target="_blank"
-                                                class="stretched-link">
-                                                <img src="https://www.spiretecsolutions.com/uploads/homepage/1718478123334127919.png" alt="Spiretec-icon" style="height:20px;">
-                                            </a>
-                                        </div>
-                                        <div class="footer__app-content">
-                                            <span>Training - Visit here</span>
-                                            <p class="mb-0">SpireTec Solutions</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="footer__app-item footer__app-item--playstore">
-                                    <div class="footer__app-inner">
-                                        <div class="footer__app-thumb">
-                                            <a href="https://www.spireweb.co.in" target="_blank"
-                                                class="stretched-link">
-                                                <img src="https://spireweb.co.in/assets/images/favicon.png" alt="spireweb-icon">
-                                            </a>
-                                        </div>
-                                        <div class="footer__app-content">
-                                            <span>Web Developement</span>
-                                            <p class="mb-0">Spireweb</p>
-                                        </div> 
-                                    </div>
-                                </div>
-                            </div>
+                            <ul class="social" data-aos="fade-right">
+
+                                <!-- WHATSAPP BUTTON -->
+                                <li class="social__item">
+                                    <a href="https://wa.me/919891811593" target="_blank" class="hire-btn whatsapp-btn">
+                                        <i class="fa-brands fa-whatsapp"></i> WhatsApp Me
+                                    </a>
+                                </li>
+
+                                <!-- LINKEDIN BUTTON -->
+                                <li class="social__item">
+                                    <a href="https://www.linkedin.com/in/abhiitmct/" target="_blank"
+                                        class="hire-btn linkedin-btn">
+                                        <i class="fa-brands fa-linkedin-in"></i> Connect
+                                    </a>
+                                </li>
+
+                            </ul>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-2 col-sm-4 col-6">
@@ -102,21 +93,20 @@
             <div class="footer__bottom">
                 <div class="footer__end">
                     <div class="footer__end-copyright">
-                        <p class=" mb-0">© 2026 All Rights Reserved By <a
-                                href="https://www.spireweb.co.in" target="_blank">SpireWeb</a> </p>
+                        <p class=" mb-0">© 2026 All Rights Reserved By <a href="https://www.spireweb.co.in"
+                                target="_blank">SpireWeb</a> </p>
                     </div>
                     <div>
                         <ul class="social">
+                            
                             <li class="social__item">
-                                <a href="#" class="social__link social__link--style2"><i
-                                        class="fab fa-facebook-f"></i></a>
-                            </li>
-                            <li class="social__item">
-                                <a href="https://www.linkedin.com/in/abhiitmct/" class="social__link social__link--style2"><i
+                                <a href="https://www.linkedin.com/in/abhiitmct/"
+                                    class="social__link social__link--style2"><i
                                         class="fa-brands fa-linkedin-in"></i></a>
                             </li>
                             <li class="social__item">
-                                <a href="https://www.youtube.com/@spiretecsolutions" class="social__link social__link--style2"><i class="fab fa-youtube"></i></a>
+                                <a href="https://www.youtube.com/@spiretecsolutions"
+                                    class="social__link social__link--style2"><i class="fab fa-youtube"></i></a>
                             </li>
                             <li class="social__item">
                                 <a href="signin.html" class="social__link social__link--style2 d-sm-none d-md-block"><i
@@ -165,37 +155,37 @@
 <script src="{{ asset('website/js/purecounter_vanilla.js') }}"></script>
 
 <script>
-document.addEventListener("DOMContentLoaded", function () {
+    document.addEventListener("DOMContentLoaded", function () {
 
-  const dot = document.querySelector(".cursor-dot");
-  const ring = document.querySelector(".cursor-ring");
+        const dot = document.querySelector(".cursor-dot");
+        const ring = document.querySelector(".cursor-ring");
 
-  let mouseX = 0;
-  let mouseY = 0;
-  let ringX = 0;
-  let ringY = 0;
+        let mouseX = 0;
+        let mouseY = 0;
+        let ringX = 0;
+        let ringY = 0;
 
-  document.addEventListener("mousemove", function(e) {
-    mouseX = e.clientX;
-    mouseY = e.clientY;
+        document.addEventListener("mousemove", function (e) {
+            mouseX = e.clientX;
+            mouseY = e.clientY;
 
-    dot.style.left = mouseX + "px";
-    dot.style.top = mouseY + "px";
-  });
+            dot.style.left = mouseX + "px";
+            dot.style.top = mouseY + "px";
+        });
 
-  function animate() {
-    ringX += (mouseX - ringX) * 0.1;
-    ringY += (mouseY - ringY) * 0.1;
+        function animate() {
+            ringX += (mouseX - ringX) * 0.1;
+            ringY += (mouseY - ringY) * 0.1;
 
-    ring.style.left = ringX + "px";
-    ring.style.top = ringY + "px";
+            ring.style.left = ringX + "px";
+            ring.style.top = ringY + "px";
 
-    requestAnimationFrame(animate);
-  }
+            requestAnimationFrame(animate);
+        }
 
-  animate();
+        animate();
 
-});
+    });
 </script>
 
 <script src="{{ asset('website/js/custom.js') }}"></script>
