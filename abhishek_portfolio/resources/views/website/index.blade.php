@@ -33,7 +33,7 @@
     <div class="container">
       <div class="banner__wrapper">
         <div class="row gy-5 gx-4">
-          <div class="col-lg-7 col-md-7">
+          <div class="col-lg-8 col-md-8">
             <div class="banner__content" data-aos="fade-right" data-aos-duration="1000">
               <h1 class="banner__content-heading">
                 Abhishek Kumar
@@ -42,6 +42,9 @@
               <p class="banner__content-subtitle">
                 Microsoft Certified Trainer | Community Lead | Modern Workplace Consultant
               </p>
+              <p class="banner__content-subtitle">Highly experienced MCT Regional Lead with a strong background in
+                Microsoft Educational Solutions and EdTech. Proficient in a range of Microsoft certifications and
+                technologies.</p>
               <p class="banner__content-moto">
                 Empowering organizations with 20+ years of expertise in Microsoft 365, Azure, Security, Power Platform,
                 SharePoint, Teams, Cybersecurity, and Agile solutions. Delivering smart, secure, and future-ready
@@ -96,15 +99,14 @@
             <div class="swiper-slide">
               <div class="partner__item">
                 <div class="partner__item-inner">
-                  <img src="https://prod.mct.pvue2.com/assets/icons/MCTBadges.png" style="height: 30px;"
-                    alt="partner logo">
+                  <img src="https://prod.mct.pvue2.com/assets/icons/MCTBadges.png" alt="partner logo">
                 </div>
               </div>
             </div>
             <div class="swiper-slide">
               <div class="partner__item">
                 <div class="partner__item-inner">
-                  <img src="https://logodix.com/logo/2182047.jpg" style="height: 30px;" alt="partner logo">
+                  <img src="https://logodix.com/logo/2182047.jpg" alt="partner logo">
                 </div>
               </div>
             </div>
@@ -112,15 +114,14 @@
               <div class="partner__item">
                 <div class="partner__item-inner">
                   <img src="https://solutionsreview.com/cloud-platforms/files/2019/06/oie_OkC1XJtADIPw.png"
-                    style="height: 30px;" alt="partner logo">
+                    alt="partner logo">
                 </div>
               </div>
             </div>
             <div class="swiper-slide">
               <div class="partner__item">
                 <div class="partner__item-inner">
-                  <img src="https://miro.medium.com/1*T59fnCvp71WqNeuytWGorA.png" style="height: 30px;"
-                    alt="partner logo">
+                  <img src="https://miro.medium.com/1*T59fnCvp71WqNeuytWGorA.png" alt="partner logo">
                 </div>
               </div>
             </div>
@@ -129,7 +130,7 @@
                 <div class="partner__item-inner">
                   <img
                     src="https://www.cyberyami.com/_next/image?url=https%3A%2F%2Fcyberyami-mern-bucket-prod-new.s3.ap-south-1.amazonaws.com%2FOqM6r_dvxdt7HG1TTIfF7.png&w=3840&q=75"
-                    style="height: 30px;" alt="partner logo">
+                    alt="partner logo">
                 </div>
               </div>
             </div>
@@ -162,7 +163,7 @@
                     <div class="floating-content__item">
                       <h3> <span class="purecounter" data-purecounter-start="0" data-purecounter-end="25">25K</span>K+
                       </h3>
-                      <p>Satisfied Trainee</p>
+                      <p>Professionals Trained</p>
                     </div>
                   </div>
                 </div>
@@ -173,7 +174,7 @@
             <div class="about__content" data-aos="fade-left" data-aos-duration="800">
               <div class="about__content-inner">
                 <div class="section-header section-header--max18 mb-1">
-                  <h2>Know More About Me & <span>What I Do</span></h2>
+                  <h2>Know More <span> About Me</span></h2>
                 </div>
                 <p class="mb-0">
                   Microsoft Certified Trainer & Community Lead with 20+ years of experience in empowering businesses
@@ -186,7 +187,8 @@
                   technologies with confidence. From corporate training and consulting to mentoring professionals and
                   leading communities, my focus is to create practical solutions that deliver measurable business impact.
                 </p>
-                <a href="#" class="trk-btn trk-btn--border trk-btn--primary1 mt-25">Explore My Journey</a>
+                <a href="{{ route('about') }}" class="trk-btn trk-btn--border trk-btn--primary1 mt-25">Explore My
+                  Journey</a>
               </div>
             </div>
           </div>
@@ -331,178 +333,193 @@
     <div class="container">
       <div class="feature__wrapper">
         <div class="row g-5 align-items-center justify-content-between">
+
+          <!-- Left Content -->
           <div class="col-md-6 col-lg-5">
             <div class="feature__content" data-aos="fade-right" data-aos-duration="800">
               <div class="feature__content-inner">
+
                 <div class="section-header">
-                  <h2 class="mb-15"><span>What I Offer</span> My Expertise & Services</h2>
+                  <h2 class="mb-15"><span>What I Deliver</span> Expertise & Solutions</h2>
                   <p class="mb-0">
-                    Delivering modern IT solutions, professional training, and business-focused digital services to help
-                    organizations grow, secure, and scale in today’s competitive world.
+                    Helping businesses modernize operations, strengthen security, and accelerate growth through Microsoft
+                    technologies, cloud transformation, and professional training.
                   </p>
                 </div>
 
                 <div class="feature__nav">
-                  <div class="nav nav--feature flex-column nav-pills" id="feat-pills-tab" role="tablist"
-                    aria-orientation="vertical">
+                  <div class="nav nav--feature flex-column nav-pills" id="feat-pills-tab" role="tablist">
+
                     <div class="nav-link active" id="feat-pills-one-tab" data-bs-toggle="pill"
-                      data-bs-target="#feat-pills-one" role="tab" aria-controls="feat-pills-one" aria-selected="true">
+                      data-bs-target="#feat-pills-one">
                       <div class="feature__item">
                         <div class="feature__item-inner">
                           <div class="feature__item-content">
-                            <h6>Expert guidance in Microsoft technologies, cloud solutions, and modern workplace
-                              transformation.</h6>
+                            <h6>Microsoft 365, SharePoint, Teams, and Power Platform solutions for modern workplaces.</h6>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div class="nav-link" id="feat-pills-two-tab" data-bs-toggle="pill" data-bs-target="#feat-pills-two"
-                      role="tab" aria-controls="feat-pills-two" aria-selected="false">
+
+                    <div class="nav-link" id="feat-pills-two-tab" data-bs-toggle="pill" data-bs-target="#feat-pills-two">
                       <div class="feature__item">
                         <div class="feature__item-inner">
                           <div class="feature__item-content">
-                            <h6>Professional training sessions designed for real-world skills and career growth.</h6>
+                            <h6>Azure cloud, security, governance, and scalable infrastructure for business growth.</h6>
                           </div>
                         </div>
                       </div>
                     </div>
 
                     <div class="nav-link" id="feat-pills-three-tab" data-bs-toggle="pill"
-                      data-bs-target="#feat-pills-three" role="tab" aria-controls="feat-pills-three"
-                      aria-selected="false">
+                      data-bs-target="#feat-pills-three">
                       <div class="feature__item">
                         <div class="feature__item-inner">
                           <div class="feature__item-content">
-                            <h6>Custom IT solutions including web development, app development, and digital marketing.
-                            </h6>
+                            <h6>Corporate training, certification guidance, and hands-on workshops for teams &
+                              professionals.</h6>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div class="nav-link" id="feat-pills-four-tab" data-bs-toggle="pill" data-bs-target="#feat-pills-four"
-                      role="tab" aria-controls="feat-pills-four" aria-selected="false">
+
+                    <div class="nav-link" id="feat-pills-four-tab" data-bs-toggle="pill"
+                      data-bs-target="#feat-pills-four">
                       <div class="feature__item">
                         <div class="feature__item-inner">
                           <div class="feature__item-content">
-                            <h6>Secure, scalable, and result-driven strategies for business success.</h6>
+                            <h6>Digital transformation strategies focused on productivity, automation, and measurable
+                              results.</h6>
                           </div>
                         </div>
                       </div>
                     </div>
+
                   </div>
                 </div>
 
               </div>
             </div>
           </div>
+
+          <!-- Right Images -->
           <div class="col-md-6 col-lg-6">
             <div class="feature__thumb" data-aos="fade-left" data-aos-duration="800">
               <div class="feature__thumb-inner">
+
                 <div class="tab-content" id="feat-pills-tabContent">
-                  <div class="tab-pane fade show active" id="feat-pills-one" role="tabpanel"
-                    aria-labelledby="feat-pills-one-tab" tabindex="0">
+
+                  <!-- Tab 1 -->
+                  <div class="tab-pane fade show active" id="feat-pills-one">
                     <div class="feature__image floating-content">
-                      <img src="{{ asset('website/images/feature/1.png') }}" alt="Feature image">
+                      <img src="{{ asset('website/images/feature/1.png') }}" alt="Modern Workplace">
+
                       <div class="floating-content__left-top floating-content__left-top--style2">
                         <div class="floating-content__item text-center p-20">
-                          <img class="mb-15" src="{{ asset('website/images/feature/5.png') }}" alt="rating">
-                          <p class="style2">Success Rate</p>
+                          <h4>20+</h4>
+                          <p class="style2">Years Experience</p>
                         </div>
                       </div>
+
                       <div class="floating-content__bottom-right floating-content__bottom-right--style2">
                         <div class="floating-content__item floating-content__item--style2 d-flex align-items-center">
-                          <h3> <span class="purecounter" data-purecounter-start="0" data-purecounter-end="24">25K</span>/7
-                          </h3>
-                          <p class="ms-3 style2">Online service</p>
+                          <h3>500+</h3>
+                          <p class="ms-3 style2">Projects & Sessions</p>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="tab-pane fade" id="feat-pills-two" role="tabpanel" aria-labelledby="feat-pills-two-tab"
-                    tabindex="0">
-                    <div class="feature__image floating-content">
-                      <img src="{{ asset('website/images/feature/2.png') }}" alt="Feature image">
-                      <div class="floating-content__left-top">
-                        <div class="floating-content__item  text-center p-20">
-                          <img class="mb-15" src="{{ asset('website/images/feature/5.png') }}" alt="rating">
-                          <p class="style2">Success Rate</p>
-                        </div>
-                      </div>
-                      <div class="floating-content__bottom-right">
-                        <div class="floating-content__item floating-content__item--style2 d-flex align-items-center">
-                          <h3> <span class="purecounter" data-purecounter-start="0" data-purecounter-end="24">25K</span>/7
-                          </h3>
-                          <p class="ms-3 style2">Online service</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="tab-pane fade" id="feat-pills-three" role="tabpanel" aria-labelledby="feat-pills-three-tab"
-                    tabindex="0">
-                    <div class="feature__image floating-content">
-                      <img src="{{ asset('website/images/feature/3.png') }}" alt="Feature image">
-                      <div class="floating-content__left-top">
-                        <div class="floating-content__item text-center p-20">
-                          <img class="mb-15" src="{{ asset('website/images/feature/5.png') }}" alt="rating">
-                          <p class="style2">Success Rate</p>
-                        </div>
-                      </div>
-                      <div class="floating-content__bottom-right">
-                        <div class="floating-content__item floating-content__item--style2 d-flex align-items-center">
-                          <h3> <span class="purecounter" data-purecounter-start="0" data-purecounter-end="24">25K</span>/7
-                          </h3>
-                          <p class="ms-3 style2">Online service</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="tab-pane fade" id="feat-pills-four" role="tabpanel" aria-labelledby="feat-pills-four-tab"
-                    tabindex="0">
-                    <div class="feature__image floating-content">
 
-                      <img src="{{ asset('website/images/feature/4.png') }}" alt="Feature image">
+                  <!-- Tab 2 -->
+                  <div class="tab-pane fade" id="feat-pills-two">
+                    <div class="feature__image floating-content">
+                      <img src="{{ asset('website/images/feature/2.png') }}" alt="Cloud Security">
+
                       <div class="floating-content__left-top">
                         <div class="floating-content__item text-center p-20">
-                          <img class="mb-15" src="{{ asset('website/images/feature/5.png') }}" alt="rating">
-                          <p class="style2">Success Rate</p>
+                          <h4>Azure</h4>
+                          <p class="style2">Cloud Expert</p>
                         </div>
                       </div>
+
                       <div class="floating-content__bottom-right">
                         <div class="floating-content__item floating-content__item--style2 d-flex align-items-center">
-                          <h3> <span class="purecounter" data-purecounter-start="0" data-purecounter-end="24">25K</span>/7
-                          </h3>
-                          <p class="ms-3 style2">Online service</p>
+                          <h3>99%</h3>
+                          <p class="ms-3 style2">Reliable Solutions</p>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
+
+                  <!-- Tab 3 -->
+                  <div class="tab-pane fade" id="feat-pills-three">
+                    <div class="feature__image floating-content">
+                      <img src="{{ asset('website/images/feature/3.png') }}" alt="Training">
+
+                      <div class="floating-content__left-top">
+                        <div class="floating-content__item text-center p-20">
+                          <h4>1000+</h4>
+                          <p class="style2">Learners Guided</p>
+                        </div>
+                      </div>
+
+                      <div class="floating-content__bottom-right">
+                        <div class="floating-content__item floating-content__item--style2 d-flex align-items-center">
+                          <h3>Live</h3>
+                          <p class="ms-3 style2">Workshops & Coaching</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Tab 4 -->
+                  <div class="tab-pane fade" id="feat-pills-four">
+                    <div class="feature__image floating-content">
+                      <img src="{{ asset('website/images/feature/4.png') }}" alt="Digital Growth">
+
+                      <div class="floating-content__left-top">
+                        <div class="floating-content__item text-center p-20">
+                          <h4>Growth</h4>
+                          <p class="style2">Business Focused</p>
+                        </div>
+                      </div>
+
+                      <div class="floating-content__bottom-right">
+                        <div class="floating-content__item floating-content__item--style2 d-flex align-items-center">
+                          <h3>24/7</h3>
+                          <p class="ms-3 style2">Support Mindset</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div><!-- tab-content -->
+
               </div>
             </div>
           </div>
+
         </div>
       </div>
     </div>
+
+    <!-- Shapes -->
     <div class="feature__shape">
       <span class="feature__shape-item feature__shape-item--1">
         <img src="{{ asset('website/images/about/shape/1.png') }}" alt="shape-icon">
       </span>
-
       <span class="feature__shape-item feature__shape-item--2">
         <img src="{{ asset('website/images/about/shape/2.png') }}" alt="shape-icon">
       </span>
-
       <span class="feature__shape-item feature__shape-item--3">
         <img src="{{ asset('website/images/about/shape/3.png') }}" alt="shape-icon">
       </span>
-
       <span class="feature__shape-item feature__shape-item--4">
         <img src="{{ asset('website/images/about/shape/4.png') }}" alt="shape-icon">
       </span>
     </div>
   </section>
   <!-- ===============>> feature section end here <<================= -->
-
 
   <!-- ===============>> Service section start here <<================= -->
   <section class="service padding-top padding-bottom bg-color-2">

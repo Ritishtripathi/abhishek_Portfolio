@@ -9,9 +9,10 @@
                             <a href="#" class="footer__about-logo"><img
                                     src="{{ asset('website/images/logo/Logo-white.png') }}" style="height: 40px;"
                                     alt="Logo"></a>
-                            <p class="footer__about-moto ">Welcome to our portfolio We offer the best, IT trainig &
-                                certifications most
-                                affordable certifications program.</p>
+                            <p class="footer__about-moto">
+                                Empowering businesses and professionals with 20+ years of expertise in Microsoft
+                                technologies, cloud solutions, corporate training, and digital transformation services.
+                            </p>
                             <ul class="social" data-aos="fade-right">
 
                                 <!-- WHATSAPP BUTTON -->
@@ -39,13 +40,10 @@
                             </div>
                             <div class="footer__links-content">
                                 <ul class="footer__linklist">
-                                    <li class="footer__linklist-item"> <a href="about.html">About Us</a>
-                                    </li>
-                                    <li class="footer__linklist-item"> <a href="team.html">Teams</a>
-                                    </li>
-                                    <li class="footer__linklist-item"> <a href="services.html">Services</a> </li>
-                                    <li class="footer__linklist-item"> <a href="#">Features</a>
-                                    </li>
+                                    <li class="footer__linklist-item"><a href="{{ route('home') }}">Home</a></li>
+                                    <li class="footer__linklist-item"><a href="{{ route('about') }}">About</a></li>
+                                    <li class="footer__linklist-item"><a href="#">Services</a></li>
+                                    <li class="footer__linklist-item"><a href="#">Experience</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -54,16 +52,14 @@
                     <div class="col-lg-2 col-md-3 col-sm-4 col-6">
                         <div class="footer__links">
                             <div class="footer__links-tittle">
-                                <h6>Help & Support</h6>
+                                <h6>Professional Links</h6>
                             </div>
                             <div class="footer__links-content">
                                 <ul class="footer__linklist">
-                                    <li class="footer__linklist-item"> <a href="#">Terms & Conditions</a>
-                                    </li>
-                                    <li class="footer__linklist-item"> <a href="#">Privacy Policy</a>
-                                    </li>
-                                    <li class="footer__linklist-item"> <a href="#">FAQs</a></li>
-                                    <li class="footer__linklist-item"> <a href="#">Support Center</a> </li>
+                                    <li class="footer__linklist-item"><a href="#">Certifications</a></li>
+                                    <li class="footer__linklist-item"><a href="#">Training</a></li>
+                                    <li class="footer__linklist-item"><a href="#">Consulting</a></li>
+                                    <li class="footer__linklist-item"><a href="#">Workshops</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -76,12 +72,12 @@
                             </div>
                             <div class="footer__links-content">
                                 <ul class="footer__linklist">
-                                    <li class="footer__linklist-item"> <a href="#">Careers</a>
+                                    <li class="footer__linklist-item"> <a href="{{ route('contact') }}">Contact</a>
                                     </li>
                                     <li class="footer__linklist-item"> <a href="#">Updates</a>
                                     </li>
-                                    <li class="footer__linklist-item"> <a href="#">Job</a> </li>
-                                    <li class="footer__linklist-item"> <a href="#">Announce</a>
+                                    <li class="footer__linklist-item"> <a href="#">Schedule Session</a> </li>
+                                    <li class="footer__linklist-item"> <a href="#">insight</a>
                                     </li>
                                 </ul>
                             </div>
@@ -98,19 +94,24 @@
                     </div>
                     <div>
                         <ul class="social">
-                            
+
                             <li class="social__item">
                                 <a href="https://www.linkedin.com/in/abhiitmct/"
                                     class="social__link social__link--style2"><i
                                         class="fa-brands fa-linkedin-in"></i></a>
                             </li>
+                            <!-- Bottom Social Icons Fix -->
                             <li class="social__item">
-                                <a href="https://www.youtube.com/@spiretecsolutions"
-                                    class="social__link social__link--style2"><i class="fab fa-youtube"></i></a>
+                                <a href="mailto:abhit.abhishek@gmail.com" class="social__link social__link--style2">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
                             </li>
+
                             <li class="social__item">
-                                <a href="signin.html" class="social__link social__link--style2 d-sm-none d-md-block"><i
-                                        class="fab fa-twitter"></i></a>
+                                <a href="https://wa.me/919891811593"
+                                    class="social__link social__link--style2 d-sm-none d-md-block">
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                </a>
                             </li>
                         </ul>
                     </div>

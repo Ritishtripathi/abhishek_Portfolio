@@ -108,7 +108,7 @@
                 <a href="#0">Expertise</a>
                 <ul class="submenu">
                   <li><a href="">Business Consulting</a></li>
-                  <li><a href="">Skill Training</a></li>
+                  <li><a href="{{ route('training') }}">Skill Training</a></li>
                 </ul>
               </li>
               <li>

@@ -18,4 +18,7 @@ class WebsiteController extends Controller
     public function booksession(){
         return view('website.booksession');
     }
+    public function training(){
+        return view('website.training');
+    }
 }
