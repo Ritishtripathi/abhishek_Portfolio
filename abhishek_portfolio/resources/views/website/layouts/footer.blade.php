@@ -138,12 +138,78 @@
     </div>
 </footer>
 <!-- ===============>> footer end here <<================= -->
+<div class="stick_follow_icon">
+    <ul>
 
+        <!-- EMAIL -->
+        <li>
+            <a href="mailto:abhit.abhishek@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+        </li>
 
+        <!-- WHATSAPP -->
+        <li>
+            <a href="https://wa.me/919891811593" target="_blank">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+        </li>
+
+        <!-- LINKEDIN -->
+        <li>
+            <a href="https://www.linkedin.com/in/abhiitmct/" target="_blank">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+        </li>
+
+    </ul>
+    <p>Contact us</p>
+</div>
+<div class="book-a-session-btn">
+  
+    <!-- From Uiverse.io by Creatlydev --> 
+<button href="#" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/abhiit-abhishek/30min'});return false;" class="button" style="--clr: #d00869">
+  <span class="button__icon-wrapper">
+    <svg
+      viewBox="0 0 14 15"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      class="button__icon-svg"
+      width="10"
+    >
+      <path
+        d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+        fill="currentColor"
+      ></path>
+    </svg>
+
+    <svg
+      viewBox="0 0 14 15"
+      fill="none"
+      width="10"
+      xmlns="http://www.w3.org/2000/svg"
+      class="button__icon-svg button__icon-svg--copy"
+    >
+      <path
+        d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+        fill="currentColor"
+      ></path>
+    </svg>
+  </span>
+ Let's Talk
+</button>
+
+</div>
 
 <!-- ===============>> scrollToTop start here <<================= -->
 <a href="#" class="scrollToTop scrollToTop--home1"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
 <!-- ===============>> scrollToTop ending here <<================= -->
+
+<!-- Calendly CSS -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+
+<!-- Calendly JS -->
+<script src="https://assets.calendly.com/assets/external/widget.js"></script>
 
 
 <!-- vendor plugins -->

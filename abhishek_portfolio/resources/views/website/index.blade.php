@@ -1,32 +1,6 @@
 ﻿@extends('website.layouts.app')
 @section('content')
-  <div class="stick_follow_icon">
-    <ul>
 
-      <!-- EMAIL -->
-      <li>
-        <a href="mailto:abhit.abhishek@gmail.com">
-          <i class="fa-solid fa-envelope"></i>
-        </a>
-      </li>
-
-      <!-- WHATSAPP -->
-      <li>
-        <a href="https://wa.me/919891811593" target="_blank">
-          <i class="fa-brands fa-whatsapp"></i>
-        </a>
-      </li>
-
-      <!-- LINKEDIN -->
-      <li>
-        <a href="https://www.linkedin.com/in/abhiitmct/" target="_blank">
-          <i class="fa-brands fa-linkedin-in"></i>
-        </a>
-      </li>
-
-    </ul>
-    <p>Contact us</p>
-  </div>
   <!-- ===============>> Banner section start here <<================= -->
   <section class="banner banner--style1  bg--cover bg-color-3"
     style="background-image: url('{{ asset('website/images/bg/4.png') }}')">
@@ -40,24 +14,37 @@
               </h1>
 
               <p class="banner__content-subtitle">
-                Microsoft Certified Trainer | Community Lead | Modern Workplace Consultant
+                (Modern Workplace Technical Consultant Trainer) MCT ➜ Microsoft ESI ➜ MCSA ➜ MCSE ➜ MCE ➜ MTA ➜ AICT
               </p>
-              <p class="banner__content-subtitle">Highly experienced MCT Regional Lead with a strong background in
-                Microsoft Educational Solutions and EdTech. Proficient in a range of Microsoft certifications and
-                technologies.</p>
-              <p class="banner__content-moto">
-                Empowering organizations with 20+ years of expertise in Microsoft 365, Azure, Security, Power Platform,
-                SharePoint, Teams, Cybersecurity, and Agile solutions. Delivering smart, secure, and future-ready
-                strategies that accelerate business success.
-              </p>
+              <p class="banner__content-subtitle">MCT | Azure | Copilot | Power BI | Tableau | Power Apps | Power Platform
+                | Azure Security | Identity Security & Governance | Azure Data | M365 Admin | SharePoint | Teams | Cyber
+                Security | CompTIA | ISO | ITIL | Scrum Agile</p>
               <div class="banner__content-btngroup">
-                <a href="www.spiretecsolutions.com"
-                  class="trk-btn trk-btn--border trk-btn--primary1 trk-btn--arrow">Download CV
-                  <span><i class="fa-solid fa-arrow-right"></i></span> </a>
-                <a href="https://youtu.be/H1HbW4Lv_Hc?si=VVzWpUrIvHJ7t_S7" class="playbtn" data-fslightbox="">
+                <!-- From Uiverse.io by andrew-demchenk0 -->
+                <button class="button-cv-dwn" type="button">
+                  <span class="button-cv-dwn__text">View CV</span>
+                  <span class="button-cv-dwn__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35"
+                      id="bdd05811-e15d-428c-bb53-8661459f9307" data-name="Layer 2" class="svg">
+                      <path
+                        d="M17.5,22.131a1.249,1.249,0,0,1-1.25-1.25V2.187a1.25,1.25,0,0,1,2.5,0V20.881A1.25,1.25,0,0,1,17.5,22.131Z">
+                      </path>
+                      <path
+                        d="M17.5,22.693a3.189,3.189,0,0,1-2.262-.936L8.487,15.006a1.249,1.249,0,0,1,1.767-1.767l6.751,6.751a.7.7,0,0,0,.99,0l6.751-6.751a1.25,1.25,0,0,1,1.768,1.767l-6.752,6.751A3.191,3.191,0,0,1,17.5,22.693Z">
+                      </path>
+                      <path
+                        d="M31.436,34.063H3.564A3.318,3.318,0,0,1,.25,30.749V22.011a1.25,1.25,0,0,1,2.5,0v8.738a.815.815,0,0,0,.814.814H31.436a.815.815,0,0,0,.814-.814V22.011a1.25,1.25,0,1,1,2.5,0v8.738A3.318,3.318,0,0,1,31.436,34.063Z">
+                      </path>
+                    </svg></span>
+                </button>
+
+                {{-- <a href="https://youtu.be/H1HbW4Lv_Hc?si=VVzWpUrIvHJ7t_S7" class="playbtn" data-fslightbox="">
                   <span class="playbtn__thumb"><i class="fa-solid fa-play"></i></span>
                   <span class="playbtn__content">Watch Video</span>
-                </a>
+                </a> --}}
+                <button href="#"
+                  onclick="Calendly.initPopupWidget({url: 'https://calendly.com/abhiit-abhishek/30min'});return false;"
+                  class="btn-home-book-train">Book a Session <i class="fa-solid fa-calendar-check"></i>
+                </button>
               </div>
             </div>
           </div>
@@ -153,7 +140,7 @@
                   <img class="dark" src="{{ asset('website/images/bg/6.png') }}" alt="about-image">
                   <div class="floating-content__top-left">
                     <div class="floating-content__item">
-                      <h3> <span class="purecounter" data-purecounter-start="0" data-purecounter-end="19">19</span>+
+                      <h3> <span class="purecounter" data-purecounter-start="0" data-purecounter-end="19">18</span>+
                         Years
                       </h3>
                       <p>Experience</p>
@@ -161,7 +148,7 @@
                   </div>
                   <div class="floating-content__bottom-right">
                     <div class="floating-content__item">
-                      <h3> <span class="purecounter" data-purecounter-start="0" data-purecounter-end="25">25K</span>K+
+                      <h3> <span class="purecounter" data-purecounter-start="0" data-purecounter-end="25">20K</span>K+
                       </h3>
                       <p>Professionals Trained</p>
                     </div>
@@ -174,18 +161,24 @@
             <div class="about__content" data-aos="fade-left" data-aos-duration="800">
               <div class="about__content-inner">
                 <div class="section-header section-header--max18 mb-1">
-                  <h2>Know More <span> About Me</span></h2>
+                  <h2> More <span> About Me</span></h2>
                 </div>
                 <p class="mb-0">
-                  Microsoft Certified Trainer & Community Lead with 20+ years of experience in empowering businesses
-                  through Microsoft 365, Azure, Security, Power Platform, SharePoint, Teams, Cybersecurity, and Agile
-                  solutions. Delivering business-ready strategies that drive growth, productivity, and digital
-                  transformation.
+                  I am a seasoned leader with over 15 years of expertise in technology consultancy, training, and
+                  educational innovation. I bring a wealth of experience in driving digital transformation and
+                  operational efficiency across diverse sectors. My career is marked by a deep specialization in Microsoft
+                  technologies, including Azure, Power Platform, M365, SharePoint, and Teams, as well as advanced data
+                  analytics with Power BI and Tableau.
+
                 </p>
                 <p class="mb-0">
-                  I specialize in helping organizations modernize their workplace, strengthen security, and adopt cloud
-                  technologies with confidence. From corporate training and consulting to mentoring professionals and
-                  leading communities, my focus is to create practical solutions that deliver measurable business impact.
+                  I have a proven track record of leading teams to success, fostering a culture of continuous learning and
+                  development, and integrating cutting-edge technology solutions to enhance productivity and learning
+                  outcomes. My extensive certifications, including MCSE, MCSA, ITIL, and CSM, underscore my commitment to
+                  excellence and professional growth.
+                  {{-- Passionate about empowering organizations and individuals through technology, I strive to create
+                  innovative solutions that meet the evolving needs of the digital landscape. My leadership style is
+                  collaborative and results-driven, focused on delivering value and achieving strategic goals. --}}
                 </p>
                 <a href="{{ route('about') }}" class="trk-btn trk-btn--border trk-btn--primary1 mt-25">Explore My
                   Journey</a>
@@ -210,74 +203,94 @@
         <div class="section-heading text-center" data-aos="fade-up" data-aos-duration="1000">
           <span class="sub-title">Professional Profile</span>
           <h2>Technical Skills & Experience</h2>
-          <p>20+ years of expertise in Microsoft Technologies, Cloud Solutions, Corporate Training, and Digital
+          <p>18+ years of expertise in Microsoft Technologies, Cloud Solutions, Corporate Training, and Digital
             Transformation.</p>
         </div>
 
         <div class="row g-5 align-items-start">
 
           <!-- Left Side Skills -->
-          <div class="col-lg-5">
+          <div class="col-lg-6">
+            <!-- SKILL GRID -->
+            <div class="skilltree-wrap">
 
-            <div class="career-skills-box" data-aos="fade-up" data-aos-duration="1000">
+              <!-- Left Column -->
+              <div class="skilltree-group" data-aos="fade-right">
+                <h4 class="box-title">Technical Skills</h4>
 
-              <h4 class="box-title">Technical Skills</h4>
-
-              <div class="skill-item">
-                <div class="skill-top"><span>Microsoft Azure</span><span>95%</span></div>
-                <div class="progress-line"><span style="width:95%"></span></div>
+                <div class="skilltree-tags">
+                  <span>Azure Security</span>
+                  <span>Cloud Solutions</span>
+                  <span>Data Management</span>
+                  <span>Power BI</span>
+                  <span>Business Analytics</span>
+                  <span>Tableau</span>
+                  <span>Power Apps</span>
+                  <span>Power Platform</span>
+                  <span>M365</span>
+                  <span>SharePoint</span>
+                  <span>MS Teams</span>
+                  <span>OneDrive</span>
+                  <span>Planner</span>
+                  <span>Yammer</span>
+                  <span>Delve</span>
+                  <span>Sway</span>
+                </div>
               </div>
 
-              <div class="skill-item">
-                <div class="skill-top"><span>Power BI</span><span>92%</span></div>
-                <div class="progress-line"><span style="width:92%"></span></div>
-              </div>
+              <!-- Right Column -->
+              <div class="skilltree-group mt-3" data-aos="fade-left">
+                <h4 class="box-title">Additional Skills</h4>
 
-              <div class="skill-item">
-                <div class="skill-top"><span>Power Apps</span><span>90%</span></div>
-                <div class="progress-line"><span style="width:90%"></span></div>
-              </div>
-
-              <div class="skill-item">
-                <div class="skill-top"><span>Microsoft 365</span><span>96%</span></div>
-                <div class="progress-line"><span style="width:96%"></span></div>
-              </div>
-
-              <div class="skill-item">
-                <div class="skill-top"><span>SharePoint & Teams</span><span>93%</span></div>
-                <div class="progress-line"><span style="width:93%"></span></div>
-              </div>
-
-              <div class="skill-item">
-                <div class="skill-top"><span>Agile & Scrum</span><span>88%</span></div>
-                <div class="progress-line"><span style="width:88%"></span></div>
+                <div class="skilltree-tags">
+                  <span>ITIL Foundation</span>
+                  <span>CSM</span>
+                  <span>Agile</span>
+                  <span>Scrum</span>
+                  <span>Project Management</span>
+                  <span>CompTIA Project+</span>
+                  <span>COBIT 5</span>
+                  <span>JIRA</span>
+                  <span>MS Project</span>
+                  <span>Visio</span>
+                  <span>Excel VBA</span>
+                  <span>Google Analytics</span>
+                  <span>Linux</span>
+                  <span>Windows Server</span>
+                  <span>Mac OS</span>
+                </div>
               </div>
 
             </div>
 
             <!-- Additional Skills -->
             <div class="additional-skills" data-aos="fade-up" data-aos-duration="1200">
-              <h4 class="box-title">Additional Skills</h4>
+              <h4 class="box-title">Certifications</h4>
 
               <div class="skill-tags">
-                <span>ITIL</span>
-                <span>Customer Success</span>
-                <span>Leadership</span>
-                <span>Consulting</span>
-                <span>Project Delivery</span>
-                <span>Team Management</span>
+                <span>MCSA</span>
+                <span>MCSE</span>
+                <span>MCE</span>
+                <span>MTA</span>
+                <span>MOE</span>
+                <span>MCT</span>
+                <span>Azure Administrator</span>
+                <span>M365 Enterprise Admin</span>
+                <span>M365 Security</span>
+                <span>Security Analyst</span>
               </div>
             </div>
 
           </div>
 
           <!-- Right Side Timeline -->
-          <div class="col-lg-7">
+          <div class="col-lg-6">
             <div class="career-timeline">
 
               <div class="timeline-card active" data-aos="fade-up" data-aos-duration="900">
                 <span class="year">Dec 2023 - Present</span>
                 <h5>Microsoft Technical Trainer - Community Lead</h5>
+                <p></p>
                 <p>Mentoring trainers, promoting MCT opportunities, and building strong Microsoft trainer communities.</p>
               </div>
 
@@ -298,12 +311,14 @@
               <div class="timeline-card" data-aos="fade-up" data-aos-duration="1200">
                 <span class="year">Apr 2016 - Jun 2017</span>
                 <h5>Technical Consultant - O365 / SharePoint</h5>
+                <p>Appflow Solutions Pvt Ltd</p>
                 <p>Managed Office 365, SharePoint administration, automation workflows, migrations, and user adoption.</p>
               </div>
 
               <div class="timeline-card" data-aos="fade-up" data-aos-duration="1300">
                 <span class="year">2010 - 2016</span>
-                <h5>Consultant – Microsoft Technologies</h5>
+                <h5>Senior Consultant Trainer – Microsoft Technologies</h5>
+                <p>Koenig Solutions Ltd</p>
                 <p>Provided global training & consultancy on SharePoint, Power BI, Office 365, Azure Security, and more.
                 </p>
               </div>

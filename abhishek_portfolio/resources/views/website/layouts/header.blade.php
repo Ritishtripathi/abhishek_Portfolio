@@ -34,39 +34,7 @@
   <link rel="stylesheet" href="{{ asset('website/css/all.min.css') }}">
   <link rel="stylesheet" href="{{ asset('website/css/lightcase.css') }}">
   <link rel="stylesheet" href="{{ asset('website/css/swiper-bundle.min.css') }}">
-
-  <style>
-    .custom-cursor .cursor-dot,
-    .custom-cursor .cursor-ring {
-      position: fixed;
-      top: 0;
-      left: 0;
-      border-radius: 50%;
-      pointer-events: none;
-      transform: translate(-50%, -50%);
-      z-index: 999999;
-    }
-
-    /* Small dot */
-    .cursor-dot {
-      width: 8px;
-      height: 8px;
-      background: red;
-    }
-
-    /* Outer circle */
-    .cursor-ring {
-      width: 30px;
-      height: 30px;
-      border: 2px solid orangered;
-      transition: transform 0.15s ease-out;
-    }
-
-    /* Hide default cursor */
-    body {
-      cursor: none;
-    }
-  </style>
+=
   <!-- main css for template -->
   <link rel="stylesheet" href="{{ asset('website/css/style.css') }}">
 </head>
@@ -123,13 +91,7 @@
           </div>
           <div class="header-action">
             <div class="menu-area">
-              <div class="header-btn">
-                <a href="{{ route('booksession') }}" class="trk-btn trk-btn--border trk-btn--primary1">
-                  <span>Book a Session</span>
-                </a>
-              </div>
-
-              <!-- toggle icons -->
+             <!-- toggle icons -->
               <div class="header-bar d-lg-none header-bar--style1">
                 <span></span>
                 <span></span>
