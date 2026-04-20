@@ -34,7 +34,7 @@
   <link rel="stylesheet" href="{{ asset('website/css/all.min.css') }}">
   <link rel="stylesheet" href="{{ asset('website/css/lightcase.css') }}">
   <link rel="stylesheet" href="{{ asset('website/css/swiper-bundle.min.css') }}">
-=
+  =
   <!-- main css for template -->
   <link rel="stylesheet" href="{{ asset('website/css/style.css') }}">
 </head>
@@ -91,7 +91,7 @@
           </div>
           <div class="header-action">
             <div class="menu-area">
-             <!-- toggle icons -->
+              <!-- toggle icons -->
               <div class="header-bar d-lg-none header-bar--style1">
                 <span></span>
                 <span></span>

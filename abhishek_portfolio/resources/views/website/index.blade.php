@@ -13,13 +13,15 @@
                 Abhishek Kumar
               </h1>
 
-              <p class="banner__content-subtitle">
-                (Modern Workplace Technical Consultant Trainer) MCT ➜ Microsoft ESI ➜ MCSA ➜ MCSE ➜ MCE ➜ MTA ➜ AICT
+              <p class="name-subheader">
+                (Modern Workplace Technical Consultant | Trainer)
               </p>
-              <p class="banner__content-subtitle">MCT | Azure | Copilot | Power BI | Tableau | Power Apps | Power Platform
-                | Azure Security | Identity Security & Governance | Azure Data | M365 Admin | SharePoint | Teams | Cyber
+              <p class="banner__content-subtitle" data-aos="fade-left" data-aos-duration="1000">MCT | MTA | MCSA | MCSE | MCE | MTA | Copilot | Azure Admin | Power BI |
+                Tableau | Power Apps | Power Platform
+                | Azure Security | Identity Security & Governance | Microsoft Defender | Microsoft Intune | Azure Data |
+                M365 Admin | SharePoint | Teams Admin | Cyber
                 Security | CompTIA | ISO | ITIL | Scrum Agile</p>
-              <div class="banner__content-btngroup">
+              <div class="banner__content-btngroup" data-aos="fade-right" data-aos-duration="1000">
                 <!-- From Uiverse.io by andrew-demchenk0 -->
                 <button class="button-cv-dwn" type="button">
                   <span class="button-cv-dwn__text">View CV</span>
@@ -36,11 +38,6 @@
                       </path>
                     </svg></span>
                 </button>
-
-                {{-- <a href="https://youtu.be/H1HbW4Lv_Hc?si=VVzWpUrIvHJ7t_S7" class="playbtn" data-fslightbox="">
-                  <span class="playbtn__thumb"><i class="fa-solid fa-play"></i></span>
-                  <span class="playbtn__content">Watch Video</span>
-                </a> --}}
                 <button href="#"
                   onclick="Calendly.initPopupWidget({url: 'https://calendly.com/abhiit-abhishek/30min'});return false;"
                   class="btn-home-book-train">Book a Session <i class="fa-solid fa-calendar-check"></i>
@@ -76,6 +73,227 @@
 
   </section>
   <!-- ===============>> Banner section end here <<================= -->
+
+  <!-- ================= CERTIFICATIONS SHOWCASE ================= -->
+  <section class="certx-section bg-color-2">
+    <div class="container">
+
+      <div class="certx-head text-center" data-aos="fade-up" data-aos-duration="1000">
+      </div>
+
+      <!-- Featured -->
+      <div class="certx-featured" data-aos="zoom-in-up" data-aos-duration="1200">
+        <div class="certx-featured-badge" data-aos="flip-left" data-aos-delay="200">
+          <img src="{{ asset('website/images/certifications/mct.png') }}" alt="MCT">
+        </div>
+
+        <div class="certx-featured-content" data-aos="fade-left" data-aos-delay="300">
+          <span class="certx-mini">Featured Credential</span>
+          <h3 class="certificate-linear-heading">
+            Microsoft Certified Trainer (MCT)
+            <span class="certx-sub">100+ Global Credentials</span>
+          </h3>
+          <p>
+            Industry-recognized Microsoft, Azure, Security, Cloud & Productivity certifications earned through continuous
+            learning and excellence.
+          </p>
+        </div>
+      </div>
+
+      <!-- Auto Slider -->
+      <div class="certx-slider-wrap" data-aos="fade-up" data-aos-duration="1000">
+
+        <div class="certx-slider-track">
+
+          <div class="certx-slide" data-aos="fade-right"><img src="{{ asset('website/images/certifications/aa.png') }}">
+          </div>
+          <div class="certx-slide" data-aos="fade-right" data-aos-delay="50"><img
+              src="{{ asset('website/images/certifications/az.png') }}"></div>
+          <div class="certx-slide" data-aos="fade-right" data-aos-delay="100"><img
+              src="{{ asset('website/images/certifications/azsecurity.png') }}"></div>
+          <div class="certx-slide" data-aos="fade-right" data-aos-delay="150"><img
+              src="{{ asset('website/images/certifications/mce.png') }}"></div>
+          <div class="certx-slide" data-aos="fade-right" data-aos-delay="200"><img
+              src="{{ asset('website/images/certifications/mcse.png') }}"></div>
+          <div class="certx-slide" data-aos="fade-right" data-aos-delay="250"><img
+              src="{{ asset('website/images/certifications/mct.png') }}"></div>
+          <div class="certx-slide" data-aos="fade-right" data-aos-delay="300"><img
+              src="{{ asset('website/images/certifications/mie.png') }}"></div>
+          <div class="certx-slide" data-aos="fade-right" data-aos-delay="350"><img
+              src="{{ asset('website/images/certifications/mta.png') }}"></div>
+          <div class="certx-slide" data-aos="fade-right" data-aos-delay="400"><img
+              src="{{ asset('website/images/certifications/powebi.png') }}"></div>
+
+          <!-- duplicate -->
+          <div class="certx-slide"><img src="{{ asset('website/images/certifications/aa.png') }}"></div>
+          <div class="certx-slide"><img src="{{ asset('website/images/certifications/az.png') }}"></div>
+          <div class="certx-slide"><img src="{{ asset('website/images/certifications/azsecurity.png') }}"></div>
+          <div class="certx-slide"><img src="{{ asset('website/images/certifications/mce.png') }}"></div>
+          <div class="certx-slide"><img src="{{ asset('website/images/certifications/mcse.png') }}"></div>
+          <div class="certx-slide"><img src="{{ asset('website/images/certifications/mct.png') }}"></div>
+          <div class="certx-slide"><img src="{{ asset('website/images/certifications/mie.png') }}"></div>
+          <div class="certx-slide"><img src="{{ asset('website/images/certifications/mta.png') }}"></div>
+          <div class="certx-slide"><img src="{{ asset('website/images/certifications/powebi.png') }}"></div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= MODERN SKILLS MATRIX ================= -->
+  <section class="skillmatrix-section bg-color-3">
+    <div class="container">
+
+      <div class="section-heading text-center mb-5" data-aos="fade-up" data-aos-duration="1000">
+        {{-- <span class="sub-title">Professional Expertise</span> --}}
+        <h2 class="certificate-linear-heading">Skills & Technologies</h2>
+        <p>
+          Advanced knowledge across Microsoft ecosystem, cloud solutions, analytics, productivity and management tools.
+        </p>
+      </div>
+
+      <div class="row g-4">
+
+        <!-- Technical -->
+        <div class="col-lg-6">
+          <div class="skillmatrix-box" data-aos="fade-right" data-aos-duration="1200">
+
+            <div class="skillmatrix-label">Technical Skills</div>
+
+            <div class="skillmatrix-grid">
+
+              <div class="skillmatrix-card" data-aos="zoom-in"><img src="{{ asset('website/images/skills/azure.png') }}">
+              </div>
+              <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="50"><img
+                  src="{{ asset('website/images/skills/powerbi.png') }}"></div>
+              <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="100"><img
+                  src="{{ asset('website/images/skills/powerapps.png') }}"></div>
+              <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="150"><img
+                  src="{{ asset('website/images/skills/powerplatform.png') }}"></div>
+              <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="200"><img
+                  src="{{ asset('website/images/skills/m365.png') }}"></div>
+              <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="250"><img
+                  src="{{ asset('website/images/skills/sharepoint.png') }}"></div>
+              <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="300"><img
+                  src="{{ asset('website/images/skills/teams.png') }}"></div>
+              <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="350"><img
+                  src="{{ asset('website/images/skills/tableau.png') }}"></div>
+              <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="400"><img
+                  src="{{ asset('website/images/skills/security.png') }}"></div>
+              <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="450"><img
+                  src="{{ asset('website/images/skills/onedrive.png') }}"></div>
+
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Additional -->
+        <div class="col-lg-6">
+          <div class="skillmatrix-box" data-aos="fade-left" data-aos-duration="1200">
+
+            <div class="skillmatrix-label">Additional Skills</div>
+
+            <div class="skillmatrix-grid">
+
+              <div class="skillmatrix-card" data-aos="zoom-in"><img src="{{ asset('website/images/skills/itil.png') }}">
+              </div>
+              <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="50"><img
+                  src="{{ asset('website/images/skills/agile.png') }}"></div>
+              <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="100"><img
+                  src="{{ asset('website/images/skills/scrum.png') }}"></div>
+              <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="150"><img
+                  src="{{ asset('website/images/skills/jira.png') }}"></div>
+              <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="200"><img
+                  src="{{ asset('website/images/skills/project.png') }}"></div>
+              <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="250"><img
+                  src="{{ asset('website/images/skills/visio.png') }}"></div>
+              <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="300"><img
+                  src="{{ asset('website/images/skills/excel.png') }}"></div>
+              <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="350"><img
+                  src="{{ asset('website/images/skills/googleanalytics.png') }}"></div>
+              <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="400"><img
+                  src="{{ asset('website/images/skills/linux.png') }}"></div>
+              <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="450"><img
+                  src="{{ asset('website/images/skills/windows.png') }}"></div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===============>> About section start here <<================= -->
+  <section class="about about--style1 bg-color-2">
+    <div class="container">
+      <div class="about__wrapper">
+        <div class="row g-5 align-items-center">
+          <div class="col-lg-5">
+            <div class="about__thumb" data-aos="fade-right" data-aos-duration="800">
+              <div class="about__thumb-inner">
+                <div class="about__thumb-image floating-content">
+                  <img class="dark" src="{{ asset('website/images/bg/6.png') }}" alt="about-image">
+                  <div class="floating-content__top-left">
+                    <div class="floating-content__item">
+                      <h3 class="multicolor-static-text"> <span class="purecounter" data-purecounter-start="0" data-purecounter-end="19">18</span>+
+                        Years
+                      </h3>
+                      <p>Experience</p>
+                    </div>
+                  </div>
+                  <div class="floating-content__bottom-right">
+                    <div class="floating-content__item">
+                      <h3 class="multicolor-static-text"> <span class="purecounter" data-purecounter-start="0" data-purecounter-end="25">20K</span>K+
+                      </h3>
+                      <p>Professionals Trained</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="about__content" data-aos="fade-left" data-aos-duration="800">
+              <div class="about__content-inner">
+                <div class="section-header section-header--max18 mb-1">
+                  <h2><span></span> <span class="multicolor-static-text"> About Me</span></h2>
+                </div>
+                <p class="mb-0">
+                  I am a seasoned leader with over 15 years of expertise in technology consultancy, training, and
+                  educational innovation. I bring a wealth of experience in driving digital transformation and
+                  operational efficiency across diverse sectors. My career is marked by a deep specialization in Microsoft
+                  technologies, including Azure, Power Platform, M365, SharePoint, and Teams, as well as advanced data
+                  analytics with Power BI and Tableau.
+
+                </p>
+                <p class="mb-0">
+                  I have a proven track record of leading teams to success, fostering a culture of continuous learning and
+                  development, and integrating cutting-edge technology solutions to enhance productivity and learning
+                  outcomes. My extensive certifications, including MCSE, MCSA, ITIL, and CSM, underscore my commitment to
+                  excellence and professional growth.
+                  {{-- Passionate about empowering organizations and individuals through technology, I strive to create
+                  innovative solutions that meet the evolving needs of the digital landscape. My leadership style is
+                  collaborative and results-driven, focused on delivering value and achieving strategic goals. --}}
+                </p>
+                <a href="{{ route('about') }}" class="trk-btn trk-btn--border trk-btn--primary1 mt-25">Explore My
+                  Journey</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="about__shape about__shape--style1">
+      <span class="about__shape-item"><img src="{{ asset('website/images/about/2.png') }}" alt="shape-icon"></span>
+    </div>
+  </section>
+  <!-- ===============>> About section start here <<================= -->
 
   <!-- ===============>> partner section start here <<================= -->
   <div class="partner partner--gradient">
@@ -128,89 +346,22 @@
   </div>
   <!-- ===============>> partner section end here <<================= -->
 
-  <!-- ===============>> About section start here <<================= -->
-  <section class="about about--style1 bg-color-2">
-    <div class="container">
-      <div class="about__wrapper">
-        <div class="row g-5 align-items-center">
-          <div class="col-lg-5">
-            <div class="about__thumb" data-aos="fade-right" data-aos-duration="800">
-              <div class="about__thumb-inner">
-                <div class="about__thumb-image floating-content">
-                  <img class="dark" src="{{ asset('website/images/bg/6.png') }}" alt="about-image">
-                  <div class="floating-content__top-left">
-                    <div class="floating-content__item">
-                      <h3> <span class="purecounter" data-purecounter-start="0" data-purecounter-end="19">18</span>+
-                        Years
-                      </h3>
-                      <p>Experience</p>
-                    </div>
-                  </div>
-                  <div class="floating-content__bottom-right">
-                    <div class="floating-content__item">
-                      <h3> <span class="purecounter" data-purecounter-start="0" data-purecounter-end="25">20K</span>K+
-                      </h3>
-                      <p>Professionals Trained</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-7">
-            <div class="about__content" data-aos="fade-left" data-aos-duration="800">
-              <div class="about__content-inner">
-                <div class="section-header section-header--max18 mb-1">
-                  <h2> More <span> About Me</span></h2>
-                </div>
-                <p class="mb-0">
-                  I am a seasoned leader with over 15 years of expertise in technology consultancy, training, and
-                  educational innovation. I bring a wealth of experience in driving digital transformation and
-                  operational efficiency across diverse sectors. My career is marked by a deep specialization in Microsoft
-                  technologies, including Azure, Power Platform, M365, SharePoint, and Teams, as well as advanced data
-                  analytics with Power BI and Tableau.
-
-                </p>
-                <p class="mb-0">
-                  I have a proven track record of leading teams to success, fostering a culture of continuous learning and
-                  development, and integrating cutting-edge technology solutions to enhance productivity and learning
-                  outcomes. My extensive certifications, including MCSE, MCSA, ITIL, and CSM, underscore my commitment to
-                  excellence and professional growth.
-                  {{-- Passionate about empowering organizations and individuals through technology, I strive to create
-                  innovative solutions that meet the evolving needs of the digital landscape. My leadership style is
-                  collaborative and results-driven, focused on delivering value and achieving strategic goals. --}}
-                </p>
-                <a href="{{ route('about') }}" class="trk-btn trk-btn--border trk-btn--primary1 mt-25">Explore My
-                  Journey</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="about__shape about__shape--style1">
-      <span class="about__shape-item"><img src="{{ asset('website/images/about/2.png') }}" alt="shape-icon"></span>
-    </div>
-  </section>
-  <!-- ===============>> About section start here <<================= -->
-
-  <!-- ================= Skills & Experience Section Start ================= -->
+  <!-- ================= Experience Section Start ================= -->
   <section class="career-section bg-color-3">
     <div class="container">
       <div class="career-wrapper">
 
         <!-- Heading -->
         <div class="section-heading text-center" data-aos="fade-up" data-aos-duration="1000">
-          <span class="sub-title">Professional Profile</span>
-          <h2>Technical Skills & Experience</h2>
-          <p>18+ years of expertise in Microsoft Technologies, Cloud Solutions, Corporate Training, and Digital
+          <h2 class="multicolor-static-text">Technical Skills & Experience</h2>
+          <p>19+ years of expertise in Microsoft Technologies, Cloud Solutions, Corporate Training, and Digital
             Transformation.</p>
         </div>
 
         <div class="row g-5 align-items-start">
 
           <!-- Left Side Skills -->
-          <div class="col-lg-6">
+          {{-- <div class="col-lg-6">
             <!-- SKILL GRID -->
             <div class="skilltree-wrap">
 
@@ -281,10 +432,10 @@
               </div>
             </div>
 
-          </div>
+          </div> --}}
 
           <!-- Right Side Timeline -->
-          <div class="col-lg-6">
+          <div class="col-lg-12">
             <div class="career-timeline">
 
               <div class="timeline-card active" data-aos="fade-up" data-aos-duration="900">
@@ -341,7 +492,7 @@
     </div>
 
   </section>
-  <!-- ================= Skills & Experience Section End ================= -->
+  <!-- =================  & Experience Section End ================= -->
 
   <!-- ===============>> feature section start here <<================= -->
   <section class="feature bg-color-4">
@@ -355,7 +506,7 @@
               <div class="feature__content-inner">
 
                 <div class="section-header">
-                  <h2 class="mb-15"><span>What I Deliver</span> Expertise & Solutions</h2>
+                  <h2 class="mb-15"><span  class="multicolor-static-text">What I Deliver</span> <span>Expertise & Solutions</span> </h2>
                   <p class="mb-0">
                     Helping businesses modernize operations, strengthen security, and accelerate growth through Microsoft
                     technologies, cloud transformation, and professional training.
@@ -539,7 +690,7 @@
   <!-- ===============>> Service section start here <<================= -->
   <section class="service padding-top padding-bottom bg-color-2">
     <div class="section-header section-header--max50">
-      <h2 class="mb-15 mt-minus-10"><span>My Services</span> What I Provide</h2>
+      <h2 class="mb-15 mt-minus-10"><span class="multicolor-static-text">What I Provide</span></h2>
       <p>I offer professional IT services, training, and digital solutions to help businesses grow, innovate, and succeed
         in the modern digital world.</p>
     </div>
@@ -669,14 +820,12 @@
   </section>
   <!-- ===============>> Service section end here <<================= -->
 
-
-
   <!-- ===============>> Testimonial section start here <<================= -->
   <section class="testimonial padding-top padding-bottom bg-color-2">
     <div class="container">
       <div class="section-header d-md-flex align-items-center justify-content-between">
         <div class="section-header__content">
-          <h2 class="mb-15 mt-minus-10">What People <span>Say About Me</span></h2>
+          <h2 class="mb-15 mt-minus-10"><span>What People</span> <span class="multicolor-static-text">Say About Me</span></h2>
           <p class="mb-0">
             Feedback from professionals, clients, and learners who have worked with me across training, consulting, and
             digital transformation projects.
