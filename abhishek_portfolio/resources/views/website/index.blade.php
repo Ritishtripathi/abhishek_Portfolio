@@ -2,12 +2,42 @@
 @section('content')
 
   <!-- ===============>> Banner section start here <<================= -->
-  <section class="banner banner--style1  bg--cover bg-color-3"
+  <section class="banner banner--style1  bg--cover section-tech-bg"
     style="background-image: url('{{ asset('website/images/bg/4.png') }}')">
     <div class="container">
       <div class="banner__wrapper">
         <div class="row gy-5 gx-4">
-          <div class="col-lg-8 col-md-8">
+          <!-- ===== GLASS ORBIT PREMIUM HERO ===== -->
+          <div class="col-lg-5 col-md-5">
+            <div class="banner__thumb galaxy-hero-wrap">
+
+              <!-- Background Blur Lights -->
+              <span class="light-ball ball-1"></span>
+              <span class="light-ball ball-2"></span>
+              <span class="light-ball ball-3"></span>
+
+              <!-- Orbit Rings -->
+              <div class="orbit-system">
+                <span class="orbit orbit-1"></span>
+                <span class="orbit orbit-2"></span>
+                <span class="orbit orbit-3"></span>
+
+                <!-- Moving Planets -->
+                <span class="planet p1"><i class="fa-solid fa-cloud"></i></span>
+                <span class="planet p2"><i class="fa-solid fa-shield-halved"></i></span>
+                <span class="planet p3"><i class="fa-solid fa-chart-column"></i></span>
+                <span class="planet p4"><i class="fa-solid fa-robot"></i></span>
+              </div>
+
+              <!-- Glass Card -->
+              <div class="glass-profile-card">
+                <div class="shine-line"></div>
+                <img src="{{ asset('website/images/bg/abhishek (2).png') }}" alt="Profile">
+              </div>
+
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-7">
             <div class="banner__content" data-aos="fade-right" data-aos-duration="1000">
               <h1 class="banner__content-heading">
                 Abhishek Kumar
@@ -16,7 +46,8 @@
               <p class="name-subheader">
                 (Modern Workplace Technical Consultant | Trainer)
               </p>
-              <p class="banner__content-subtitle" data-aos="fade-left" data-aos-duration="1000">MCT | MTA | MCSA | MCSE | MCE | MTA | Copilot | Azure Admin | Power BI |
+              <p class="banner__content-subtitle">MCT | MTA | MCSA | MCSE |
+                MCE | MTA | Copilot | Azure Admin | Power BI |
                 Tableau | Power Apps | Power Platform
                 | Azure Security | Identity Security & Governance | Microsoft Defender | Microsoft Intune | Azure Data |
                 M365 Admin | SharePoint | Teams Admin | Cyber
@@ -45,11 +76,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-4">
-            <div class="banner__thumb">
-              <img src="{{ asset('website/images/bg/5.png') }}" alt="banner-thumb">
-            </div>
-          </div>
+
         </div>
       </div>
     </div>
@@ -230,7 +257,7 @@
   </section>
 
   <!-- ===============>> About section start here <<================= -->
-  <section class="about about--style1 bg-color-2">
+  <section class="about about--style1 section-tech-bg">
     <div class="container">
       <div class="about__wrapper">
         <div class="row g-5 align-items-center">
@@ -241,7 +268,8 @@
                   <img class="dark" src="{{ asset('website/images/bg/6.png') }}" alt="about-image">
                   <div class="floating-content__top-left">
                     <div class="floating-content__item">
-                      <h3 class="multicolor-static-text"> <span class="purecounter" data-purecounter-start="0" data-purecounter-end="19">18</span>+
+                      <h3 class="multicolor-static-text"> <span class="purecounter" data-purecounter-start="0"
+                          data-purecounter-end="19">18</span>+
                         Years
                       </h3>
                       <p>Experience</p>
@@ -249,7 +277,8 @@
                   </div>
                   <div class="floating-content__bottom-right">
                     <div class="floating-content__item">
-                      <h3 class="multicolor-static-text"> <span class="purecounter" data-purecounter-start="0" data-purecounter-end="25">20K</span>K+
+                      <h3 class="multicolor-static-text"> <span class="purecounter" data-purecounter-start="0"
+                          data-purecounter-end="25">20K</span>K+
                       </h3>
                       <p>Professionals Trained</p>
                     </div>
@@ -495,71 +524,76 @@
   <!-- =================  & Experience Section End ================= -->
 
   <!-- ===============>> feature section start here <<================= -->
-  <section class="feature bg-color-4">
+  <section class="feature bg-color-2">
     <div class="container">
       <div class="feature__wrapper">
+        <div class="section-heading text-center" data-aos="fade-up" data-aos-duration="1000">
+          <h2 class="mb-15">
+            <span class="multicolor-static-text">What I Deliver Expertise & Solutions</span>
+          </h2>
+          <p class="mb-0">
+            Transforming learners into certified professionals and organizations into future-ready teams through
+            Microsoft technologies, cloud solutions, AI adoption, and enterprise training.
+          </p>
+        </div>
         <div class="row g-5 align-items-center justify-content-between">
 
           <!-- Left Content -->
-          <div class="col-md-6 col-lg-5">
+          <div class="col-md-4 col-lg-4">
             <div class="feature__content" data-aos="fade-right" data-aos-duration="800">
               <div class="feature__content-inner">
-
-                <div class="section-header">
-                  <h2 class="mb-15"><span  class="multicolor-static-text">What I Deliver</span> <span>Expertise & Solutions</span> </h2>
-                  <p class="mb-0">
-                    Helping businesses modernize operations, strengthen security, and accelerate growth through Microsoft
-                    technologies, cloud transformation, and professional training.
-                  </p>
-                </div>
-
+                <!-- Nav Tabs -->
                 <div class="feature__nav">
                   <div class="nav nav--feature flex-column nav-pills" id="feat-pills-tab" role="tablist">
 
-                    <div class="nav-link active" id="feat-pills-one-tab" data-bs-toggle="pill"
-                      data-bs-target="#feat-pills-one">
+                    <div class="nav-link active" data-bs-toggle="pill" data-bs-target="#feat-pills-one">
                       <div class="feature__item">
                         <div class="feature__item-inner">
                           <div class="feature__item-content">
-                            <h6>Microsoft 365, SharePoint, Teams, and Power Platform solutions for modern workplaces.</h6>
+                            <p class="features-content-p">Corporate Technical Training – Microsoft 365, Azure, Power BI,
+                              Cybersecurity, AI Tools &
+                              Productivity Solutions.</p>
                           </div>
                         </div>
                       </div>
                     </div>
 
-                    <div class="nav-link" id="feat-pills-two-tab" data-bs-toggle="pill" data-bs-target="#feat-pills-two">
+                    <div class="nav-link" data-bs-toggle="pill" data-bs-target="#feat-pills-two">
                       <div class="feature__item">
                         <div class="feature__item-inner">
                           <div class="feature__item-content">
-                            <h6>Azure cloud, security, governance, and scalable infrastructure for business growth.</h6>
+                            <p class="features-content-p">Microsoft Azure & Cloud Upskilling – Azure fundamentals,
+                              administration, security &
+                              implementation training.</p>
                           </div>
                         </div>
                       </div>
                     </div>
 
-                    <div class="nav-link" id="feat-pills-three-tab" data-bs-toggle="pill"
-                      data-bs-target="#feat-pills-three">
+                    <div class="nav-link" data-bs-toggle="pill" data-bs-target="#feat-pills-three">
                       <div class="feature__item">
                         <div class="feature__item-inner">
                           <div class="feature__item-content">
-                            <h6>Corporate training, certification guidance, and hands-on workshops for teams &
-                              professionals.</h6>
+                            <p class="features-content-p">AI & Copilot Readiness Programs – Copilot, ChatGPT & workflow
+                              automation for smarter
+                              teams.</p>
                           </div>
                         </div>
                       </div>
                     </div>
 
-                    <div class="nav-link" id="feat-pills-four-tab" data-bs-toggle="pill"
-                      data-bs-target="#feat-pills-four">
+                    <div class="nav-link" data-bs-toggle="pill" data-bs-target="#feat-pills-four">
                       <div class="feature__item">
                         <div class="feature__item-inner">
                           <div class="feature__item-content">
-                            <h6>Digital transformation strategies focused on productivity, automation, and measurable
-                              results.</h6>
+                            <p class="features-content-p">Data Analytics Training – Power BI, Excel Automation, Tableau,
+                              SQL & dashboard reporting.
+                            </p>
                           </div>
                         </div>
                       </div>
                     </div>
+
 
                   </div>
                 </div>
@@ -568,48 +602,44 @@
             </div>
           </div>
 
-          <!-- Right Images -->
-          <div class="col-md-6 col-lg-6">
+          <!-- Right Content -->
+          <div class="col-md-4 col-lg-4">
             <div class="feature__thumb" data-aos="fade-left" data-aos-duration="800">
               <div class="feature__thumb-inner">
 
-                <div class="tab-content" id="feat-pills-tabContent">
+                <div class="tab-content">
 
-                  <!-- Tab 1 -->
+                  <!-- 1 -->
                   <div class="tab-pane fade show active" id="feat-pills-one">
                     <div class="feature__image floating-content">
-                      <img src="{{ asset('website/images/feature/1.png') }}" alt="Modern Workplace">
-
-                      <div class="floating-content__left-top floating-content__left-top--style2">
+                      <img src="{{ asset('website/images/feature/1.png') }}" alt="">
+                      <div class="floating-content__left-top">
                         <div class="floating-content__item text-center p-20">
                           <h4>20+</h4>
                           <p class="style2">Years Experience</p>
                         </div>
                       </div>
-
-                      <div class="floating-content__bottom-right floating-content__bottom-right--style2">
-                        <div class="floating-content__item floating-content__item--style2 d-flex align-items-center">
+                      <div class="floating-content__bottom-right">
+                        <div class="floating-content__item d-flex align-items-center">
                           <h3>500+</h3>
-                          <p class="ms-3 style2">Projects & Sessions</p>
+                          <p class="ms-3 style2">Sessions Delivered</p>
                         </div>
                       </div>
                     </div>
                   </div>
 
-                  <!-- Tab 2 -->
+                  <!-- 2 -->
                   <div class="tab-pane fade" id="feat-pills-two">
                     <div class="feature__image floating-content">
-                      <img src="{{ asset('website/images/feature/2.png') }}" alt="Cloud Security">
-
+                      <img src="{{ asset('website/images/feature/2.png') }}" alt="">
                       <div class="floating-content__left-top">
                         <div class="floating-content__item text-center p-20">
                           <h4>Azure</h4>
                           <p class="style2">Cloud Expert</p>
                         </div>
                       </div>
-
                       <div class="floating-content__bottom-right">
-                        <div class="floating-content__item floating-content__item--style2 d-flex align-items-center">
+                        <div class="floating-content__item d-flex align-items-center">
                           <h3>99%</h3>
                           <p class="ms-3 style2">Reliable Solutions</p>
                         </div>
@@ -617,78 +647,124 @@
                     </div>
                   </div>
 
-                  <!-- Tab 3 -->
+                  <!-- 3 -->
                   <div class="tab-pane fade" id="feat-pills-three">
                     <div class="feature__image floating-content">
-                      <img src="{{ asset('website/images/feature/3.png') }}" alt="Training">
-
+                      <img src="{{ asset('website/images/feature/3.png') }}" alt="">
                       <div class="floating-content__left-top">
                         <div class="floating-content__item text-center p-20">
-                          <h4>1000+</h4>
-                          <p class="style2">Learners Guided</p>
+                          <h4>AI</h4>
+                          <p class="style2">Future Ready</p>
                         </div>
                       </div>
-
                       <div class="floating-content__bottom-right">
-                        <div class="floating-content__item floating-content__item--style2 d-flex align-items-center">
-                          <h3>Live</h3>
-                          <p class="ms-3 style2">Workshops & Coaching</p>
+                        <div class="floating-content__item d-flex align-items-center">
+                          <h3>Copilot</h3>
+                          <p class="ms-3 style2">Automation Skills</p>
                         </div>
                       </div>
                     </div>
                   </div>
 
-                  <!-- Tab 4 -->
+                  <!-- 4 -->
                   <div class="tab-pane fade" id="feat-pills-four">
                     <div class="feature__image floating-content">
-                      <img src="{{ asset('website/images/feature/4.png') }}" alt="Digital Growth">
-
+                      <img src="{{ asset('website/images/feature/4.png') }}" alt="">
                       <div class="floating-content__left-top">
                         <div class="floating-content__item text-center p-20">
-                          <h4>Growth</h4>
-                          <p class="style2">Business Focused</p>
+                          <h4>Power BI</h4>
+                          <p class="style2">Analytics Expert</p>
                         </div>
                       </div>
-
                       <div class="floating-content__bottom-right">
-                        <div class="floating-content__item floating-content__item--style2 d-flex align-items-center">
-                          <h3>24/7</h3>
-                          <p class="ms-3 style2">Support Mindset</p>
+                        <div class="floating-content__item d-flex align-items-center">
+                          <h3>Dashboards</h3>
+                          <p class="ms-3 style2">Smart Decisions</p>
                         </div>
                       </div>
                     </div>
                   </div>
+
+
 
                 </div><!-- tab-content -->
 
               </div>
             </div>
           </div>
+          <!-- Left Content -->
+          <div class="col-md-4 col-lg-4">
+            <div class="feature__content" data-aos="fade-right" data-aos-duration="800">
+              <div class="feature__content-inner">
+                <!-- Nav Tabs -->
+                <div class="feature__nav">
+                  <div class="nav nav--feature flex-column nav-pills" id="feat-pills-tab" role="tablist">
+
+
+                    <div class="nav-link" data-bs-toggle="pill" data-bs-target="#feat-pills-five">
+                      <div class="feature__item">
+                        <div class="feature__item-inner">
+                          <div class="feature__item-content">
+                            <p class="features-content-p">Power Platform Solutions – Power Apps, Power Automate, Virtual
+                              Agents & low-code
+                              transformation.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="nav-link" data-bs-toggle="pill" data-bs-target="#feat-pills-six">
+                      <div class="feature__item">
+                        <div class="feature__item-inner">
+                          <div class="feature__item-content">
+                            <p class="features-content-p">IT Certification Preparation – Microsoft, Azure, MCT pathway,
+                              career growth & interview
+                              readiness.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="nav-link" data-bs-toggle="pill" data-bs-target="#feat-pills-seven">
+                      <div class="feature__item">
+                        <div class="feature__item-inner">
+                          <div class="feature__item-content">
+                            <p class="features-content-p">LMS & EdTech Enablement – Virtual classrooms, assessments,
+                              learning journeys & engagement
+                              models.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="nav-link" data-bs-toggle="pill" data-bs-target="#feat-pills-eight">
+                      <div class="feature__item">
+                        <div class="feature__item-inner">
+                          <div class="feature__item-content">
+                            <p class="features-content-p">Leadership & Soft Skills Development – Communication,
+                              presentation, TTT & workplace
+                              excellence.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
 
         </div>
       </div>
-    </div>
-
-    <!-- Shapes -->
-    <div class="feature__shape">
-      <span class="feature__shape-item feature__shape-item--1">
-        <img src="{{ asset('website/images/about/shape/1.png') }}" alt="shape-icon">
-      </span>
-      <span class="feature__shape-item feature__shape-item--2">
-        <img src="{{ asset('website/images/about/shape/2.png') }}" alt="shape-icon">
-      </span>
-      <span class="feature__shape-item feature__shape-item--3">
-        <img src="{{ asset('website/images/about/shape/3.png') }}" alt="shape-icon">
-      </span>
-      <span class="feature__shape-item feature__shape-item--4">
-        <img src="{{ asset('website/images/about/shape/4.png') }}" alt="shape-icon">
-      </span>
     </div>
   </section>
   <!-- ===============>> feature section end here <<================= -->
 
   <!-- ===============>> Service section start here <<================= -->
-  <section class="service padding-top padding-bottom bg-color-2">
+  <section class="service padding-top padding-bottom bg-color-3">
     <div class="section-header section-header--max50">
       <h2 class="mb-15 mt-minus-10"><span class="multicolor-static-text">What I Provide</span></h2>
       <p>I offer professional IT services, training, and digital solutions to help businesses grow, innovate, and succeed
@@ -821,11 +897,12 @@
   <!-- ===============>> Service section end here <<================= -->
 
   <!-- ===============>> Testimonial section start here <<================= -->
-  <section class="testimonial padding-top padding-bottom bg-color-2">
+  <section class="testimonial padding-top padding-bottom section-tech-bg">
     <div class="container">
       <div class="section-header d-md-flex align-items-center justify-content-between">
         <div class="section-header__content">
-          <h2 class="mb-15 mt-minus-10"><span>What People</span> <span class="multicolor-static-text">Say About Me</span></h2>
+          <h2 class="mb-15 mt-minus-10"><span>What People</span> <span class="multicolor-static-text">Say About Me</span>
+          </h2>
           <p class="mb-0">
             Feedback from professionals, clients, and learners who have worked with me across training, consulting, and
             digital transformation projects.
@@ -974,7 +1051,7 @@
 
 
   <!-- ===============>> cta section start here <<================= -->
-  <section class="cta cta--style1 padding-top padding-bottom of-hidden bg-color-2">
+  <section class="cta cta--style1 padding-top padding-bottom of-hidden bg-color-3">
     <div class="container">
       <div class="cta__wrapper">
         <div class="row gx-4">
