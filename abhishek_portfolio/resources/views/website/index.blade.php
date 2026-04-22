@@ -48,9 +48,10 @@
               </p>
               <p class="banner__content-subtitle">MCT | MTA | MCSA | MCSE |
                 MCE | MTA | Copilot | Azure Admin | Power BI |
-                Tableau | Power Apps | Power Platform
-                | Azure Security | Identity Security & Governance | Microsoft Defender | Microsoft Intune | Azure Data |
-                M365 Admin | SharePoint | Teams Admin | Cyber
+                Tableau Power Apps | Power Platform
+                | Azure Security | Identity Security & Governance <br> Microsoft Defender | Microsoft Intune | Azure Data
+                |
+                M365 Admin | SharePoint | Teams Admin Cyber
                 Security | CompTIA | ISO | ITIL | Scrum Agile</p>
               <div class="banner__content-btngroup" data-aos="fade-right" data-aos-duration="1000">
                 <!-- From Uiverse.io by andrew-demchenk0 -->
@@ -101,6 +102,79 @@
   </section>
   <!-- ===============>> Banner section end here <<================= -->
 
+  <!-- ================= CERTIFICATIONS GRID SECTION ================= -->
+  <section class="certx2-section bg-color-2" data-aos="fade-up" data-aos-duration="1000">
+    <div class="container">
+
+      <!-- FEATURED BLOCK -->
+      <div class="certx2-featured" data-aos="zoom-in-up" data-aos-duration="1000">
+
+        <div class="certx2-featured-badge" data-aos="flip-left" data-aos-delay="200">
+          <img src="{{ asset('website/images/certifications/mctnew.png') }}">
+        </div>
+
+        <div class="certx2-featured-content" data-aos="fade-left" data-aos-delay="300">
+          <span class="certx2-mini">Featured Credential</span>
+
+          <h3 class="certificate-linear-heading">
+            Microsoft Certified Trainer (MCT)
+            <span class="certx-sub">100+ Global Credentials</span>
+          </h3>
+
+          <p>
+            Industry-recognized Microsoft, Azure, Security, Cloud & Productivity certifications.
+          </p>
+        </div>
+
+      </div>
+
+      <!-- GRID LOGOS -->
+      <div class="certx2-grid" data-aos="fade-right" data-aos-delay="400">
+        <!-- ROW 1 -->
+        <div class="certx2-card"><img src="{{ asset('website/images/certifications/gwr.png') }}"></div>
+        <div class="certx2-card"><img src="{{ asset('website/images/certifications/mcse.png') }}"></div>
+        <div class="certx2-card"><img src="{{ asset('website/images/certifications/mce.png') }}"></div>
+        <div class="certx2-card"><img src="{{ asset('website/images/certifications/mta.png') }}"></div>
+        <div class="certx2-card"><img src="{{ asset('website/images/certifications/exampassed1.png') }}"></div>
+        <div class="certx2-card"><img src="{{ asset('website/images/certifications/exampassed2.png') }}"></div>
+        <div class="certx2-card"><img src="{{ asset('website/images/certifications/msexcel.png') }}"></div>
+
+        <!-- ROW 2 -->
+        <div class="certx2-card"><img src="{{ asset('website/images/certifications/msoffice.png') }}"></div>
+        <div class="certx2-card"><img src="{{ asset('website/images/certifications/ms100.png') }}"></div>
+        <div class="certx2-card"><img src="{{ asset('website/images/certifications/ms101.png') }}"></div>
+        <div class="certx2-card"><img src="{{ asset('website/images/certifications/md101.png') }}"></div>
+        <div class="certx2-card"><img src="{{ asset('website/images/certifications/ms300.png') }}"></div>
+        <div class="certx2-card"><img src="{{ asset('website/images/certifications/az.png') }}"></div>
+        <div class="certx2-card"><img src="{{ asset('website/images/certifications/aa.png') }}"></div>
+
+        <!-- ROW 3 -->
+        <div class="certx2-card"><img src="{{ asset('website/images/certifications/powerbi.png') }}"></div>
+        <div class="certx2-card"><img src="{{ asset('website/images/certifications/learn100.png') }}"></div>
+        <div class="certx2-card"><img src="{{ asset('website/images/certifications/ea.png') }}"></div>
+        <div class="certx2-card"><img src="{{ asset('website/images/certifications/ppfc.png') }}"></div>
+        <div class="certx2-card"><img src="{{ asset('website/images/certifications/ta.png') }}"></div>
+        <div class="certx2-card"><img src="{{ asset('website/images/certifications/ccse.png') }}"></div>
+        <div class="certx2-card"><img src="{{ asset('website/images/certifications/de.png') }}"></div>
+
+        <!-- ROW 4 -->
+        <div class="certx2-card"><img src="{{ asset('website/images/certifications/mcaip.png') }}"></div>
+        <div class="certx2-card"><img src="{{ asset('website/images/certifications/s500sr.png') }}"></div>
+        <div class="certx2-card"><img src="{{ asset('website/images/certifications/ase.png') }}"></div>
+        <div class="certx2-card"><img src="{{ asset('website/images/certifications/sa.png') }}"></div>
+        <div class="certx2-card"><img src="{{ asset('website/images/certifications/soa.png') }}"></div>
+        <div class="certx2-card"><img src="{{ asset('website/images/certifications/iaaa.png') }}"></div>
+        <div class="certx2-card"><img src="{{ asset('website/images/certifications/ipa.png') }}"></div>
+
+
+        <!-- ROW 5 -->
+        <div class="certx2-card"><img src="{{ asset('website/images/certifications/aeda.png') }}"></div>
+        <div class="certx2-card"><img src="{{ asset('website/images/certifications/xcd.png') }}"></div>
+        <div class="certx2-card"><img src="{{ asset('website/images/certifications/miet.png') }}"></div>
+        <div class="certx2-card"><img src="{{ asset('website/images/certifications/mcmie.png') }}"></div>
+      </div>
+    </div>
+  </section>
   <!-- ================= CERTIFICATIONS SHOWCASE ================= -->
   <section class="certx-section bg-color-2">
     <div class="container">
@@ -111,7 +185,7 @@
       <!-- Featured -->
       <div class="certx-featured" data-aos="zoom-in-up" data-aos-duration="1200">
         <div class="certx-featured-badge" data-aos="flip-left" data-aos-delay="200">
-          <img src="{{ asset('website/images/certifications/mct.png') }}" alt="MCT">
+          <img src="{{ asset('website/images/certifications/mctnew.png') }}" alt="MCT">
         </div>
 
         <div class="certx-featured-content" data-aos="fade-left" data-aos-delay="300">
@@ -184,7 +258,7 @@
       <div class="row g-4">
 
         <!-- Technical -->
-        <div class="col-lg-6">
+        <div class="col-lg-7">
           <div class="skillmatrix-box" data-aos="fade-right" data-aos-duration="1200">
 
             <div class="skillmatrix-label">Technical Skills</div>
@@ -212,22 +286,7 @@
               <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="450"><img
                   src="{{ asset('website/images/skills/onedrive.png') }}"></div>
 
-            </div>
-
-          </div>
-        </div>
-
-        <!-- Additional -->
-        <div class="col-lg-6">
-          <div class="skillmatrix-box" data-aos="fade-left" data-aos-duration="1200">
-
-            <div class="skillmatrix-label">Additional Skills</div>
-
-            <div class="skillmatrix-grid">
-
-              <div class="skillmatrix-card" data-aos="zoom-in"><img src="{{ asset('website/images/skills/itil.png') }}">
-              </div>
-              <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="50"><img
+             <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="50"><img
                   src="{{ asset('website/images/skills/agile.png') }}"></div>
               <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="100"><img
                   src="{{ asset('website/images/skills/scrum.png') }}"></div>
@@ -241,13 +300,33 @@
                   src="{{ asset('website/images/skills/excel.png') }}"></div>
               <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="350"><img
                   src="{{ asset('website/images/skills/googleanalytics.png') }}"></div>
-              <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="400"><img
-                  src="{{ asset('website/images/skills/linux.png') }}"></div>
-              <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="450"><img
-                  src="{{ asset('website/images/skills/windows.png') }}"></div>
 
             </div>
 
+          </div>
+        </div>
+
+        <!-- Additional -->
+        <div class="col-lg-5">
+          <div class="skillmatrix-box" data-aos="fade-left" data-aos-duration="1200">
+
+            <div class="skillmatrix-label">Additional Skills</div>
+
+            <div class="skillmatrix-grid">
+              <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="50"><img
+                  src="{{ asset('website/images/skills/csm.png') }}"></div>
+              <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="100"><img
+                  src="{{ asset('website/images/skills/smc.png') }}"></div>
+              <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="150"><img
+                  src="{{ asset('website/images/skills/sdc.png') }}"></div>
+              <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="200"><img
+                  src="{{ asset('website/images/skills/i4.png') }}"></div>
+              <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="250"><img
+                  src="{{ asset('website/images/skills/gaiopm.png') }}"></div>
+              <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="300"><img
+                  src="{{ asset('website/images/skills/acs.png') }}"></div>
+             
+            </div>
           </div>
         </div>
 
@@ -376,7 +455,7 @@
   <!-- ===============>> partner section end here <<================= -->
 
   <!-- ================= Experience Section Start ================= -->
-  <section class="career-section bg-color-3">
+  <section class="career-section experience-tech-bg" data-aos="fade-up" data-aos-duration="1000">
     <div class="container">
       <div class="career-wrapper">
 
@@ -387,141 +466,93 @@
             Transformation.</p>
         </div>
 
-        <div class="row g-5 align-items-start">
+        <div class="row">
+          <!-- Additional Skills -->
+          {{-- <div class="additional-skills" data-aos="fade-up" data-aos-duration="1200">
+            <h4 class="box-title">Certifications</h4>
 
-          <!-- Left Side Skills -->
-          {{-- <div class="col-lg-6">
-            <!-- SKILL GRID -->
-            <div class="skilltree-wrap">
-
-              <!-- Left Column -->
-              <div class="skilltree-group" data-aos="fade-right">
-                <h4 class="box-title">Technical Skills</h4>
-
-                <div class="skilltree-tags">
-                  <span>Azure Security</span>
-                  <span>Cloud Solutions</span>
-                  <span>Data Management</span>
-                  <span>Power BI</span>
-                  <span>Business Analytics</span>
-                  <span>Tableau</span>
-                  <span>Power Apps</span>
-                  <span>Power Platform</span>
-                  <span>M365</span>
-                  <span>SharePoint</span>
-                  <span>MS Teams</span>
-                  <span>OneDrive</span>
-                  <span>Planner</span>
-                  <span>Yammer</span>
-                  <span>Delve</span>
-                  <span>Sway</span>
-                </div>
-              </div>
-
-              <!-- Right Column -->
-              <div class="skilltree-group mt-3" data-aos="fade-left">
-                <h4 class="box-title">Additional Skills</h4>
-
-                <div class="skilltree-tags">
-                  <span>ITIL Foundation</span>
-                  <span>CSM</span>
-                  <span>Agile</span>
-                  <span>Scrum</span>
-                  <span>Project Management</span>
-                  <span>CompTIA Project+</span>
-                  <span>COBIT 5</span>
-                  <span>JIRA</span>
-                  <span>MS Project</span>
-                  <span>Visio</span>
-                  <span>Excel VBA</span>
-                  <span>Google Analytics</span>
-                  <span>Linux</span>
-                  <span>Windows Server</span>
-                  <span>Mac OS</span>
-                </div>
-              </div>
-
+            <div class="skill-tags">
+              <span>MCSA</span>
+              <span>MCSE</span>
+              <span>MCE</span>
+              <span>MTA</span>
+              <span>MOE</span>
+              <span>MCT</span>
+              <span>Azure Administrator</span>
+              <span>M365 Enterprise Admin</span>
+              <span>M365 Security</span>
+              <span>Security Analyst</span>
             </div>
-
-            <!-- Additional Skills -->
-            <div class="additional-skills" data-aos="fade-up" data-aos-duration="1200">
-              <h4 class="box-title">Certifications</h4>
-
-              <div class="skill-tags">
-                <span>MCSA</span>
-                <span>MCSE</span>
-                <span>MCE</span>
-                <span>MTA</span>
-                <span>MOE</span>
-                <span>MCT</span>
-                <span>Azure Administrator</span>
-                <span>M365 Enterprise Admin</span>
-                <span>M365 Security</span>
-                <span>Security Analyst</span>
-              </div>
-            </div>
-
           </div> --}}
-
-          <!-- Right Side Timeline -->
           <div class="col-lg-12">
+
             <div class="career-timeline">
 
-              <div class="timeline-card active" data-aos="fade-up" data-aos-duration="900">
+              <!-- CARD -->
+              <div class="timeline-card active" data-aos="fade-up" data-aos-delay="100">
                 <span class="year">Dec 2023 - Present</span>
                 <h5>Microsoft Technical Trainer - Community Lead</h5>
-                <p></p>
                 <p>Mentoring trainers, promoting MCT opportunities, and building strong Microsoft trainer communities.</p>
+
+                <div class="company-logo">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg">
+                </div>
               </div>
 
-              <div class="timeline-card" data-aos="fade-up" data-aos-duration="1000">
+              <!-- CARD -->
+              <div class="timeline-card" data-aos="fade-up" data-aos-delay="200">
                 <span class="year">Aug 2023 - Present</span>
                 <h5>Sr. Instructor & Consultant</h5>
                 <p>Corporate training & consultancy for overseas clients on Microsoft technologies and cloud platforms.
                 </p>
+
+                <div class="company-logo">
+                  <img src="https://cdn-icons-png.flaticon.com/512/5968/5968672.png">
+                </div>
               </div>
 
-              <div class="timeline-card" data-aos="fade-up" data-aos-duration="1100">
+              <!-- CARD -->
+              <div class="timeline-card" data-aos="fade-up" data-aos-delay="300">
                 <span class="year">Aug 2019 - Aug 2022</span>
                 <h5>Senior Technical Trainer - M365</h5>
-                <p>Delivered onboarding, advanced training, technical documentation, labs, and enterprise support
-                  programs.</p>
+                <p>Delivered onboarding, advanced training, documentation, labs, and enterprise support programs.</p>
+
+                <div class="company-logo">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlOIxVal60vyjzPESlFT9sahbivSXv-WGWTg&s">
+                </div>
               </div>
 
-              <div class="timeline-card" data-aos="fade-up" data-aos-duration="1200">
+              <!-- CARD -->
+              <div class="timeline-card" data-aos="fade-up" data-aos-delay="400">
                 <span class="year">Apr 2016 - Jun 2017</span>
                 <h5>Technical Consultant - O365 / SharePoint</h5>
-                <p>Appflow Solutions Pvt Ltd</p>
-                <p>Managed Office 365, SharePoint administration, automation workflows, migrations, and user adoption.</p>
+                <p>Managed Office 365, SharePoint, workflows, migrations, and adoption.</p>
+
+                <div class="company-logo">
+                  <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png">
+                </div>
               </div>
 
-              <div class="timeline-card" data-aos="fade-up" data-aos-duration="1300">
+              <!-- CARD -->
+              <div class="timeline-card" data-aos="fade-up" data-aos-delay="500">
                 <span class="year">2010 - 2016</span>
                 <h5>Senior Consultant Trainer – Microsoft Technologies</h5>
-                <p>Koenig Solutions Ltd</p>
-                <p>Provided global training & consultancy on SharePoint, Power BI, Office 365, Azure Security, and more.
-                </p>
+                <p>Provided global training & consultancy on SharePoint, Power BI, Azure Security.</p>
+
+                <div class="company-logo">
+                  <img src="https://cdn-icons-png.flaticon.com/512/5968/5968672.png">
+                </div>
               </div>
 
             </div>
-          </div>
 
+          </div>
         </div>
 
       </div>
     </div>
-
-    <div class="banner__shape">
-      <span class="banner__shape-item banner__shape-item--1">
-        <img src="{{ asset('website/images/banner/shape/1.png') }}" alt="shape icon">
-      </span>
-      <span class="banner__shape-item banner__shape-item--2">
-        <img src="{{ asset('website/images/banner/shape/2.png') }}" alt="shape icon">
-      </span>
-    </div>
-
   </section>
-  <!-- =================  & Experience Section End ================= -->
+  <!-- ================= Experience Section End ================= -->
 
   <!-- ===============>> feature section start here <<================= -->
   <section class="feature bg-color-2">
