@@ -173,10 +173,130 @@
         <div class="certx2-card"><img src="{{ asset('website/images/certifications/miet.png') }}"></div>
         <div class="certx2-card"><img src="{{ asset('website/images/certifications/mcmie.png') }}"></div>
       </div>
+
+      <!-- ================= COMPTIA PREMIUM BLOCK ================= -->
+      <div class="certx2-featured mt-5" data-aos="zoom-in-up" data-aos-duration="1000">
+
+        <!-- LEFT LOGO -->
+        <div class="certx2-featured-badge" data-aos="flip-left">
+          <img src="{{ asset('website/images/certifications/comptia.png') }}">
+        </div>
+
+        <!-- RIGHT CONTENT -->
+        <div class="certx2-featured-content">
+          <!-- HEADING -->
+          <h5 class="certificate-linear-heading" data-aos="fade-left" data-aos-delay="200">
+            CompTIA Certifications
+          </h5>
+          <!-- GRID -->
+          <div class="certx3-grid" data-aos="fade-up" data-aos-delay="300">
+            <div class="certx3-card"><img src="{{ asset('website/images/certifications/comptiac.png') }}"></div>
+            <div class="certx3-card"><img src="{{ asset('website/images/certifications/comptial.png') }}"></div>
+            <div class="certx3-card"><img src="{{ asset('website/images/certifications/comptiap.png') }}"></div>
+            <div class="certx3-card"><img src="{{ asset('website/images/certifications/comptias.png') }}"></div>
+            <div class="certx3-card"><img src="{{ asset('website/images/certifications/comptiat.png') }}"></div>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- ================= PECB PREMIUM BLOCK ================= -->
+      <div class="certx2-featured mt-5" data-aos="zoom-in-up" data-aos-duration="1000">
+
+        <!-- LEFT LOGO -->
+        <div class="certx2-featured-badge" data-aos="flip-left">
+          <img src="{{ asset('website/images/certifications/pecb.png') }}">
+        </div>
+
+        <!-- RIGHT CONTENT -->
+        <div class="certx2-featured-content">
+          <!-- HEADING -->
+          <h5 class="multicolor-static-text " data-aos="fade-left" data-aos-delay="200">
+            PECB Certifications
+          </h5>
+          <!-- GRID -->
+          <div class="certx3-grid" data-aos="fade-up" data-aos-delay="100">
+            <div class="certx3-card"><img src="{{ asset('website/images/certifications/pecb1.png') }}"></div>
+            <div class="certx3-card"><img src="{{ asset('website/images/certifications/pecb2.png') }}"></div>
+            <div class="certx3-card"><img src="{{ asset('website/images/certifications/pecb3.png') }}"></div>
+            <div class="certx3-card"><img src="{{ asset('website/images/certifications/pecb4.png') }}"></div>
+            <div class="certx3-card"><img src="{{ asset('website/images/certifications/pecb5.png') }}"></div>
+            <div class="certx3-card"><img src="{{ asset('website/images/certifications/pecb6.png') }}"></div>
+            <div class="certx3-card"><img src="{{ asset('website/images/certifications/leadA.png') }}"></div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- ================= AICERTs PREMIUM BLOCK ================= -->
+      <div class="certx2-featured mt-5" data-aos="zoom-in-up" data-aos-duration="1000">
+
+        <!-- LEFT LOGO -->
+        <div class="certx2-featured-badge" data-aos="flip-left">
+          <img src="{{ asset('website/images/certifications/aicerts.png') }}">
+        </div>
+
+        <!-- RIGHT CONTENT -->
+        <div class="certx2-featured-content">
+          <!-- HEADING -->
+          <h5 class="certificate-linear-heading " data-aos="fade-left" data-aos-delay="200">
+            <span>AI</span>CERTs Certifications
+          </h5>
+          <!-- GRID -->
+          <div class="certx3-grid" data-aos="fade-up" data-aos-delay="100">
+            <div class="certx3-card"><img src="{{ asset('website/images/certifications/aicerts1.png') }}"></div>
+            <div class="certx3-card"><img src="{{ asset('website/images/certifications/aicerts2.png') }}"></div>
+            <div class="certx3-card"><img src="{{ asset('website/images/certifications/aicerts3.png') }}"></div>
+            <div class="certx3-card"><img src="{{ asset('website/images/certifications/aicerts4.png') }}"></div>
+            <div class="certx3-card"><img src="{{ asset('website/images/certifications/aicerts5.png') }}"></div>
+            <div class="certx3-card"><img src="{{ asset('website/images/certifications/aicerts6.png') }}"></div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- ================= Tebluae PREMIUM BLOCK ================= -->
+      <div class="certx2-featured mt-5" data-aos="zoom-in-up" data-aos-duration="1000">
+
+        <!-- LEFT LOGO -->
+        <div class="certx2-featured-badge" data-aos="flip-left">
+          <img src="{{ asset('website/images/certifications/tebcert.png') }}">
+        </div>
+
+        <!-- RIGHT CONTENT -->
+        <div class="certx2-featured-content">
+          <!-- HEADING -->
+          <h5 class="multicolor-static-text " data-aos="fade-left" data-aos-delay="200">
+            Tableau <span class="certificate-linear-heading "> Certnexus Certifications</span>
+          </h5>
+          <!-- GRID -->
+          <div class="certx3-grid" data-aos="fade-up" data-aos-delay="100">
+            <div class="certx3-card"><img src="{{ asset('website/images/certifications/tableu1.png') }}"></div>
+            <div class="certx3-card"><img src="{{ asset('website/images/certifications/tableu2.png') }}"></div>
+            <div class="certx3-card"><img src="{{ asset('website/images/certifications/tableu3.png') }}"></div>
+            <div class="certx3-card"><img src="{{ asset('website/images/certifications/tableu4.png') }}"></div>
+            <div class="certx3-card"><img src="{{ asset('website/images/certifications/tableu5.png') }}"></div>
+            <div class="certx3-card"><img src="{{ asset('website/images/certifications/tableu6.png') }}"></div>
+            <div class="certx3-card"><img src="{{ asset('website/images/certifications/tableu7.png') }}"></div>
+            <div class="certx3-card"><img src="{{ asset('website/images/certifications/tableu8.png') }}"></div>
+            <!-- certnexus -->
+            <div class="certx3-card"><img src="{{ asset('website/images/certifications/certnexus1.png') }}"></div>
+            <div class="certx3-card"><img src="{{ asset('website/images/certifications/certnexus2.png') }}"></div>
+            <div class="certx3-card"><img src="{{ asset('website/images/certifications/certnexus3.png') }}"></div>
+            <div class="certx3-card"><img src="{{ asset('website/images/certifications/certnexus4.png') }}"></div>
+          </div>
+
+        </div>
+
+      </div>
     </div>
   </section>
   <!-- ================= CERTIFICATIONS SHOWCASE ================= -->
-  <section class="certx-section bg-color-2">
+  {{-- <section class="certx-section bg-color-2">
     <div class="container">
 
       <div class="certx-head text-center" data-aos="fade-up" data-aos-duration="1000">
@@ -241,9 +361,9 @@
       </div>
 
     </div>
-  </section>
+  </section> --}}
 
-  <!-- ================= MODERN SKILLS MATRIX ================= -->
+  <!-- ================= MODERN SsKILLS MATRIX ================= -->
   <section class="skillmatrix-section bg-color-3">
     <div class="container">
 
@@ -286,7 +406,7 @@
               <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="450"><img
                   src="{{ asset('website/images/skills/onedrive.png') }}"></div>
 
-             <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="50"><img
+              <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="50"><img
                   src="{{ asset('website/images/skills/agile.png') }}"></div>
               <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="100"><img
                   src="{{ asset('website/images/skills/scrum.png') }}"></div>
@@ -315,6 +435,8 @@
             <div class="skillmatrix-grid">
               <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="50"><img
                   src="{{ asset('website/images/skills/csm.png') }}"></div>
+              <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="50"><img
+                  src="{{ asset('website/images/skills/scrumstudys.png') }}"></div>
               <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="100"><img
                   src="{{ asset('website/images/skills/smc.png') }}"></div>
               <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="150"><img
@@ -325,7 +447,7 @@
                   src="{{ asset('website/images/skills/gaiopm.png') }}"></div>
               <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="300"><img
                   src="{{ asset('website/images/skills/acs.png') }}"></div>
-             
+
             </div>
           </div>
         </div>
@@ -495,7 +617,7 @@
                 <p>Mentoring trainers, promoting MCT opportunities, and building strong Microsoft trainer communities.</p>
 
                 <div class="company-logo">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg">
+                  <img src="https://blogs.microsoft.com/wp-content/uploads/2012/08/8867.Microsoft_5F00_Logo_2D00_for_2D00_screen.jpg">
                 </div>
               </div>
 
@@ -507,7 +629,7 @@
                 </p>
 
                 <div class="company-logo">
-                  <img src="https://cdn-icons-png.flaticon.com/512/5968/5968672.png">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Skillsoft-logo-navy-RGB_.png">
                 </div>
               </div>
 
@@ -518,7 +640,7 @@
                 <p>Delivered onboarding, advanced training, documentation, labs, and enterprise support programs.</p>
 
                 <div class="company-logo">
-                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlOIxVal60vyjzPESlFT9sahbivSXv-WGWTg&s">
+                  <img src="https://dynamicscon.com/wp-content/uploads/2024/09/Sherweb-Logo-Tagline-EN-Full-color-RGB-2023.png">
                 </div>
               </div>
 
@@ -529,7 +651,7 @@
                 <p>Managed Office 365, SharePoint, workflows, migrations, and adoption.</p>
 
                 <div class="company-logo">
-                  <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png">
+                  <img src="https://www.appflowsolutions.com/Content/images/appflowlogo1.png">
                 </div>
               </div>
 
@@ -540,7 +662,7 @@
                 <p>Provided global training & consultancy on SharePoint, Power BI, Azure Security.</p>
 
                 <div class="company-logo">
-                  <img src="https://cdn-icons-png.flaticon.com/512/5968/5968672.png">
+                  <img src="https://images.credly.com/size/200x200/images/41f21e57-358c-40d3-9bb8-9c8c0ca242d2/blob.png">
                 </div>
               </div>
 
