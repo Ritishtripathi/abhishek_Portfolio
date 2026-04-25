@@ -99,7 +99,6 @@
                       <i class="fa-brands fa-linkedin-in"></i> Connect
                     </a>
                   </li>
-
                 </ul>
               </div>
             </div>

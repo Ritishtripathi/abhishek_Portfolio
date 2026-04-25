@@ -72,16 +72,17 @@
               <li>
                 <a href="{{ route('home') }}">Homes </a>
               </li>
-              <li>
+              {{-- <li>
                 <a href="#0">Expertise</a>
                 <ul class="submenu">
                   <li><a href="">Business Consulting</a></li>
                   <li><a href="{{ route('training') }}">Skill Training</a></li>
                 </ul>
-              </li>
-              <li>
+              </li> --}}
+              {{-- <li>
                 <a href="{{ route('about') }}">About Us</a>
-              </li>
+              </li> --}}
+              <li><a href="{{ route('training') }}">Skill Training</a></li>
 
               <li>
                 <a href="{{ route('contact') }}">Contact Us</a>

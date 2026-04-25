@@ -9661,12 +9661,20 @@ Only for stp-* classes (No Website Conflict)
 
 /* FIXED ROTATED BOOK A SESSION BUTTON */
 /* Old UI same rahega, sirf position + rotate */
-
+.cvdwn-btn {
+  position: fixed;
+  right: -60px;
+  /* screen ke bahar se half visible */
+  top: 60%;
+  transform: translateY(-50%) rotate(-90deg);
+  transform-origin: center;
+  z-index: 9999;
+}
 .book-a-session-btn {
   position: fixed;
   right: -60px;
   /* screen ke bahar se half visible */
-  top: 50%;
+  top: 40%;
   transform: translateY(-50%) rotate(-90deg);
   transform-origin: center;
   z-index: 9999;
@@ -9725,7 +9733,7 @@ body {
   cursor: none;
 }
 
-/* From Uiverse.io by Creatlydev */
+/* From  by Creatlydev */
 .button {
   line-height: 1;
   text-decoration: none;
@@ -9783,45 +9791,14 @@ body {
 }
 
 
-/* From */
-.btn-home-book-train {
-  width: auto;
-  height: 40px;
-  font-size: 1.0em;
-  cursor: pointer;
-  padding: 10px 15px 15px 15px;
-  background-color: #171717;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  transition: all .4s;
-}
-
-.btn-home-book-train:hover {
-  border-radius: 5px;
-  transform: translateY(-10px);
-  box-shadow: 0 7px 0 -2px #f85959,
-    0 15px 0 -4px #39a2db,
-    0 16px 10px -3px #39a2db;
-}
-
-.btn-home-book-train:active {
-  transition: all 0.2s;
-  transform: translateY(-5px);
-  box-shadow: 0 2px 0 -2px #f85959,
-    0 8px 0 -4px #39a2db,
-    0 12px 10px -3px #39a2db;
-}
-
-
 /* From by*/
 .button-cv-dwn {
   position: relative;
   width: 150px;
-  height: 40px;
+  height: 50px;
   cursor: pointer;
   display: flex;
-  border-radius: 5px;
+  border-radius: 7px 7px  0px 0px;
   align-items: center;
   border: 1px solid #f85959;
   background-color: #fb0000f2;
@@ -10065,16 +10042,15 @@ body {
 
 .skillmatrix-box {
   position: relative;
-  padding: 30px 25px 25px 70px;
+  padding: 30px 25px 25px 30px;
   border-radius: 24px;
-  background: #0b1220;
+  background: linear-gradient(135deg, #0ea7ffa3, #7c3aedb1, orange);
   box-shadow: 0 18px 45px rgba(0, 0, 0, .18);
   height: 100%;
   overflow: hidden;
 }
-
 /* Left Vertical Label */
-.skillmatrix-label {
+/* .skillmatrix-label {
   position: absolute;
   left: 0;
   top: 0;
@@ -10090,12 +10066,12 @@ body {
   font-size: 13px;
   font-weight: 700;
   letter-spacing: 1px;
-}
+} */
 
 /* Grid */
 .skillmatrix-grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(8, 1fr);
   gap: 14px;
 }
 
@@ -10217,14 +10193,32 @@ body {
 /* ===== GRID ===== */
 .certx2-grid {
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   gap: 18px;
 }
+/* last 2 cards */
+.certx2-card:nth-last-child(2):nth-child(5n + 1) {
+  grid-column: 2 / 3;
+}
+.certx2-card:last-child:nth-child(5n + 2) {
+  grid-column: 3 / 4;
+}
 
-/* ===== CARD ===== */
+/* last 3 cards */
+.certx2-card:nth-last-child(3):nth-child(5n + 1) {
+  grid-column: 2 / 3;
+}
+.certx2-card:nth-last-child(2):nth-child(5n + 2) {
+  grid-column: 3 / 4;
+}
+.certx2-card:last-child:nth-child(5n + 3) {
+  grid-column: 4 / 5;
+}
+
+/* =====Certificates CARD ===== */
 .certx2-card {
-  height: 110px;
-  background-image: conic-gradient(from 36deg at 20% 80%, rgb(162, 0, 255) 0%, #000000 25%, rgb(17, 155, 253) 30%);
+  height: 130px;
+  background-image: conic-gradient(from 36deg at 20% 80%, rgba(15, 122, 216, 0.837) 0%, #000000 25%, rgba(160, 31, 108, 0.366) 30%);
   border-radius: 16px;
   padding: 5px;
   display: flex;
@@ -10244,7 +10238,7 @@ body {
 /* IMAGE FIX */
 .certx2-card img {
   max-width: 100%;
-  max-height: 100px;
+  max-height: 120px;
   object-fit: contain;
 }
 
@@ -10293,18 +10287,19 @@ body {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   /* SAME AS BEFORE */
-  gap: 18px;
+  gap:5px;
 }
 
 /* CARD FIX (remove fixed width issue) */
 .certx3-card {
-  height: 110px;
+  height: 130px;
   width: 100%;
   /* IMPORTANT: remove 150px */
-  background-image: conic-gradient(from 36deg at 20% 80%,
+  /* background-image: conic-gradient(from 36deg at 20% 80%,
       rgb(162, 0, 255) 0%,
       #000000 25%,
-      rgb(17, 155, 253) 30%);
+      rgb(17, 155, 253) 30%); */
+  background-color: transparent;
   border-radius: 16px;
   padding: 5px;
   display: flex;
@@ -10316,37 +10311,72 @@ body {
 /* HOVER */
 .certx3-card:hover {
   transform: translateY(-6px) scale(1.05);
-  box-shadow: 0 18px 40px rgba(249, 77, 28, .15);
+  box-shadow: 0 18px 40px rgba(249, 28, 28, 0.503);
 }
 
 /* IMAGE */
 .certx3-card img {
   max-width: 100%;
-  max-height: 95px;
+  max-height: 130px;
   object-fit: contain;
 }
 
 /* ===== TABLET ===== */
 @media (max-width: 991px) {
   .certx3-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
 /* ===== MOBILE ===== */
 @media (max-width: 576px) {
   .certx3-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
+    grid-template-columns: repeat(3, 1fr);
+    gap:5px;
   }
 
   .certx3-card {
-    height: 90px;
+    height:110px;
   }
 
   .certx3-card img {
-    max-height: 65px;
+    max-height:110px;
   }
+}
+
+.certx2-featured-badge2 {
+  width: 140px;
+  height: 100px;
+  background: transparent;
+  /* border-radius: 20px; */
+  /* border: 2px solid red; */
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+}
+
+.certx2-featured-badge2 img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.banner__content-heading {
+  font-family: Algerian, serif !important;
+  font-size: 64px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #071c4d;
+  line-height: 1.1;
+}
+
+/* Skills Paragraph */
+.banner__content-subtitle {
+  font-family: Algerian, serif !important;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.8;
+  color: #1b1b1b;
+  display: inline;
 }
 
 
@@ -10378,9 +10408,10 @@ body {
 }
 
 
+
 .multicolor-static-text {
   background: linear-gradient(90deg, #F94D1C, #FF0000, #ff8a00, #ff006e, #d00869);
-
+  font-family: Algerian, serif !important;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -10390,7 +10421,7 @@ body {
 .certificate-linear-heading {
   background: linear-gradient(90deg, #ff7a00, #ffb347, #00c6ff, #7b2ff7, #ff416c);
   background-size: 300% auto;
-
+  font-family: Algerian, serif !important;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -10737,3 +10768,6 @@ body {
   left: 42%;
   animation-delay: 2
 }
+
+
+
