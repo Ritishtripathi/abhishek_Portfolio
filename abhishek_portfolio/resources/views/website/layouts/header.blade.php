@@ -2,25 +2,23 @@
 <html lang="en" data-bs-theme="light">
 
 <head>
-  <title>Abhishek Kumar | Certified MCT Trainer</title>
+  <title>Abhishek Kumar (Modern Workplace Technical Consultant | Trainer) </title>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Sites meta Data -->
   <meta name="application-name"
-    content="Torkbiz - Professional Multipurpose HTML Template for Business Consulting & Financial Services">
-  <meta name="author" content="thetork">
+    content="Abhishek Kumar (Modern Workplace Technical Consultant | Trainer) MCT | MTA | MCSA | MCSE | MCE | MTA | Copilot | Azure Admin | Power BI | Tableau Power Apps | Power Platform | Azure Security | Identity Security & Governance
+Microsoft Defender | Microsoft Intune | Azure Data | M365 Admin | SharePoint | Teams Admin Cyber Security | CompTIA | ISO | ITIL | Scrum Agile">
+  <meta name="portfolio" content="abhishek kuamr mct">
   <meta name="keywords" content="Torkbiz, corporate business, consultancy agencies">
-  <meta name="description"
-    content="Torkbiz provides a professional online platform to showcase your products, services, and expertise.
-      From captivating visuals to seamless navigation, Torkbiz ensures an engaging user experience that leaves a lasting impression.
-      Whether you're looking to attract new clients, expand your reach, or establish your brand presence,
-      Torkbiz is the perfect choice for crafting a modern business website that stands out in today's competitive landscape.">
+  <meta name="description" content="Abhishek Kumar (Modern Workplace Technical Consultant | Trainer) MCT | MTA | MCSA | MCSE | MCE | MTA | Copilot | Azure Admin | Power BI | Tableau Power Apps | Power Platform | Azure Security | Identity Security & Governance
+Microsoft Defender | Microsoft Intune | Azure Data | M365 Admin | SharePoint | Teams Admin Cyber Security | CompTIA | ISO | ITIL | Scrum Agile
+">
 
   <!-- OG meta data -->
-  <meta property="og:title"
-    content="Torkbiz - Professional Multipurpose HTML Template for Business Consulting & Financial Services">
+  <meta property="og:title" content="Abhishek Kumar - (Modern Workplace Technical Consultant | Trainer)">
   <meta property="og:site_name" content="Torkbiz">
   <meta property="og:url" content="">
   <meta property="og:description" content="">
@@ -34,7 +32,7 @@
   <link rel="stylesheet" href="{{ asset('website/css/all.min.css') }}">
   <link rel="stylesheet" href="{{ asset('website/css/lightcase.css') }}">
   <link rel="stylesheet" href="{{ asset('website/css/swiper-bundle.min.css') }}">
-  
+
   <!-- main css for template -->
   <link rel="stylesheet" href="{{ asset('website/css/style.css') }}">
 </head>

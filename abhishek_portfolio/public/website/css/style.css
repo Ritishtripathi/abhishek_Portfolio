@@ -1,87 +1,4 @@
-﻿/*!
-Template Name: Torkbiz - Professional Multipurpose HTML Template for Business Consulting & Financial Services
-Template URI: https://themeforest.net/item/torkbiz-professional-multipurpose-html-template-for-business-consulting-financial-services/46320460
-Author: thetork
-Author URI: https: //themeforest.net/user/thetork/portfolio
-Description: Torkbiz provides a professional online platform to showcase your products, services, and expertise.
-      From captivating visuals to seamless navigation, Torkbiz ensures an engaging user experience that leaves a lasting impression.
-      Whether you're looking to attract new clients, expand your reach, or establish your brand presence,
-      Torkbiz is the perfect choice for crafting a modern business website that stands out in today's competitive landscape.
-Version: 1.0.0
-Text Domain: Torkbiz
-Tags: Torkbiz, corporate business, consultancy agency.
-
-*/
-/*
------------------Table of content start -----------------
-
-1. Configuration and helpers
-    -extends,
-    -variables,
-    -functions,
-    -mixins
-
-2. Vendors
-    -normalize,
-    -text-rotator,
-    -nice-select,
-    -rfs
-
-3. Base stuff
-    -fonts,
-    -typography,
-    -animations,
-    -common,
-    -helpers
-
-
-4. Layout-related sections
-    -header,
-    -banner,
-    -contact,
-    -account,
-    -form,
-    -footer
-
-
-5. Components
-    -button,
-    -preloader,
-    -lightdark-switch,
-    -social-link,
-    -foating-content,
-    -partner,
-    -feature,
-    -service,
-    -pricing,
-    -team,
-    -blog,
-    -blog-details,
-    -testimonial,
-    -cta,
-    -story,
-    -sidebar,
-    -faq,
-    -error,
-    -servicer-details,
-    -nav,
-    -comment,
-    -about
-
-6. Page-specific styles
-    -home
-
-
-7. Themes
-    -theme
-
------------------Table of content end -----------------
-
-
-
-*/
-
-/*=====================================================================*/
+﻿/*=====================================================================*/
 /* @@@@@@@@@@@@@  Extend Property CSS start here  @@@@@@@@@@@@@@ */
 /*=========<<Flex property extends start>>=========*/
 @import url("../../../../../css2");
@@ -4586,7 +4503,8 @@ h6 a {
 .banner__content-btngroup {
   gap: 30px;
 }
-.banner__content-subtitle{
+
+.banner__content-subtitle {
   font-weight: 600;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: rgb(11, 11, 44);
@@ -9665,11 +9583,12 @@ Only for stp-* classes (No Website Conflict)
   position: fixed;
   right: -60px;
   /* screen ke bahar se half visible */
-  top: 60%;
+  top: 65%;
   transform: translateY(-50%) rotate(-90deg);
   transform-origin: center;
   z-index: 9999;
 }
+
 .book-a-session-btn {
   position: fixed;
   right: -60px;
@@ -9688,6 +9607,22 @@ Only for stp-* classes (No Website Conflict)
 
 /* Tablet */
 @media (max-width: 991px) {
+  .cvdwn-btn {
+    right: -60px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 575px) {
+  .cvdwn-btn {
+    right: -65px;
+    top: 57%;
+    transform: translateY(-50%) rotate(-90deg) scale(0.9);
+  }
+}
+
+/* Tablet */
+@media (max-width: 991px) {
   .book-a-session-btn {
     right: -60px;
   }
@@ -9697,7 +9632,7 @@ Only for stp-* classes (No Website Conflict)
 @media (max-width: 575px) {
   .book-a-session-btn {
     right: -65px;
-    top: 60%;
+    top: 40%;
     transform: translateY(-50%) rotate(-90deg) scale(0.9);
   }
 }
@@ -9798,7 +9733,7 @@ body {
   height: 50px;
   cursor: pointer;
   display: flex;
-  border-radius: 7px 7px  0px 0px;
+  border-radius: 7px 7px 0px 0px;
   align-items: center;
   border: 1px solid #f85959;
   background-color: #fb0000f2;
@@ -10049,6 +9984,7 @@ body {
   height: 100%;
   overflow: hidden;
 }
+
 /* Left Vertical Label */
 /* .skillmatrix-label {
   position: absolute;
@@ -10083,7 +10019,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 12px;
+  padding: 5px;
   transition: .35s ease;
 }
 
@@ -10095,7 +10031,7 @@ body {
 
 .skillmatrix-card img {
   max-width: 100%;
-  max-height: 48px;
+  max-height: 80px;
   object-fit: contain;
   filter: brightness(1.05);
 }
@@ -10109,11 +10045,11 @@ body {
 
 @media(max-width:767px) {
   .skillmatrix-section {
-    padding: 70px 0;
+    padding: 0px 0;
   }
 
   .skillmatrix-box {
-    padding: 22px 15px 15px 55px;
+    padding: 22px 15px 15px 20px;
   }
 
   .skillmatrix-label {
@@ -10132,7 +10068,7 @@ body {
   }
 
   .skillmatrix-card img {
-    max-height: 38px;
+    max-height: 65px;
   }
 }
 
@@ -10189,36 +10125,24 @@ body {
   font-size: 14px;
   color: #fbbf24;
 }
-
 /* ===== GRID ===== */
 .certx2-grid {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 18px;
-}
-/* last 2 cards */
-.certx2-card:nth-last-child(2):nth-child(5n + 1) {
-  grid-column: 2 / 3;
-}
-.certx2-card:last-child:nth-child(5n + 2) {
-  grid-column: 3 / 4;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center; /* last row auto center */
 }
 
-/* last 3 cards */
-.certx2-card:nth-last-child(3):nth-child(5n + 1) {
-  grid-column: 2 / 3;
-}
-.certx2-card:nth-last-child(2):nth-child(5n + 2) {
-  grid-column: 3 / 4;
-}
-.certx2-card:last-child:nth-child(5n + 3) {
-  grid-column: 4 / 5;
-}
-
-/* =====Certificates CARD ===== */
+/* ===== Certificates CARD ===== */
 .certx2-card {
+  width: calc(16.66% - 15px); /* 6 cards per row */
   height: 130px;
-  background-image: conic-gradient(from 36deg at 20% 80%, rgba(15, 122, 216, 0.837) 0%, #000000 25%, rgba(160, 31, 108, 0.366) 30%);
+  background-image: conic-gradient(
+    from 36deg at 20% 80%,
+    rgba(15, 122, 216, 0.837) 0%,
+    #000000 25%,
+    rgba(160, 31, 108, 0.366) 30%
+  );
   border-radius: 16px;
   padding: 5px;
   display: flex;
@@ -10233,8 +10157,6 @@ body {
   box-shadow: 0 18px 40px rgba(249, 77, 28, .15);
 }
 
-
-
 /* IMAGE FIX */
 .certx2-card img {
   max-width: 100%;
@@ -10244,14 +10166,14 @@ body {
 
 /* ===== RESPONSIVE ===== */
 @media(max-width:1200px) {
-  .certx2-grid {
-    grid-template-columns: repeat(6, 1fr);
+  .certx2-card {
+    width: calc(20% - 15px); /* 5 per row */
   }
 }
 
 @media(max-width:991px) {
-  .certx2-grid {
-    grid-template-columns: repeat(5, 1fr);
+  .certx2-card {
+    width: calc(25% - 15px); /* 4 per row */
   }
 }
 
@@ -10261,11 +10183,8 @@ body {
     text-align: center;
   }
 
-  .certx2-grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
-
   .certx2-card {
+    width: calc(33.33% - 15px); /* 3 per row */
     height: 90px;
   }
 
@@ -10275,11 +10194,10 @@ body {
 }
 
 @media(max-width:480px) {
-  .certx2-grid {
-    grid-template-columns: repeat(3, 1fr);
+  .certx2-card {
+    width: calc(50% - 15px); /* 2 per row */
   }
 }
-
 
 
 /* ===== DESKTOP (NO CHANGE) ===== */
@@ -10287,7 +10205,7 @@ body {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   /* SAME AS BEFORE */
-  gap:5px;
+  gap: 5px;
 }
 
 /* CARD FIX (remove fixed width issue) */
@@ -10332,15 +10250,15 @@ body {
 @media (max-width: 576px) {
   .certx3-grid {
     grid-template-columns: repeat(3, 1fr);
-    gap:5px;
+    gap: 5px;
   }
 
   .certx3-card {
-    height:110px;
+    height: 110px;
   }
 
   .certx3-card img {
-    max-height:110px;
+    max-height: 110px;
   }
 }
 
@@ -10362,11 +10280,30 @@ body {
 
 .banner__content-heading {
   font-family: Algerian, serif !important;
-  font-size: 64px;
+  font-size: 50px;
   font-weight: 700;
   letter-spacing: 1px;
   color: #071c4d;
-  line-height: 1.1;
+}
+
+@media (max-width: 575px) {
+  .banner__content-heading {
+    font-family: Algerian, serif !important;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #071c4d;
+  }
+}
+
+@media (max-width: 975px) {
+  .banner__content-heading {
+    font-family: Algerian, serif !important;
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #071c4d;
+  }
 }
 
 /* Skills Paragraph */
@@ -10411,7 +10348,7 @@ body {
 
 .multicolor-static-text {
   background: linear-gradient(90deg, #F94D1C, #FF0000, #ff8a00, #ff006e, #d00869);
-  font-family: Algerian, serif !important;
+
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -10421,7 +10358,6 @@ body {
 .certificate-linear-heading {
   background: linear-gradient(90deg, #ff7a00, #ffb347, #00c6ff, #7b2ff7, #ff416c);
   background-size: 300% auto;
-  font-family: Algerian, serif !important;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -10768,6 +10704,3 @@ body {
   left: 42%;
   animation-delay: 2
 }
-
-
-

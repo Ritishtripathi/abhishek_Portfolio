@@ -48,10 +48,10 @@
               </p>
               <p class="banner__content-subtitle">MCT | MTA | MCSA | MCSE |
                 MCE | MTA | Copilot | Azure Admin | Power BI |
-                Tableau Power Apps | Power Platform
-                | Azure Security | Identity Security & Governance <br> Microsoft Defender | Microsoft Intune | Azure Data
+                Tableau | Power Apps | Power Platform
+                | Azure Security | Identity Security & Governance | Microsoft Defender | Microsoft Intune | Azure Data
                 |
-                M365 Admin | SharePoint | Teams Admin Cyber
+                M365 Admin | SharePoint | Teams Admin | Cyber
                 Security | CompTIA | ISO | ITIL | Scrum Agile</p>
             </div>
           </div>
@@ -115,10 +115,9 @@
         <div class="certx2-card"><img src="{{ asset('website/images/certifications/mta.png') }}"></div>
         <div class="certx2-card"><img src="{{ asset('website/images/certifications/exampassed1.png') }}"></div>
         <div class="certx2-card"><img src="{{ asset('website/images/certifications/exampassed2.png') }}"></div>
-        <div class="certx2-card"><img src="{{ asset('website/images/certifications/msexcel.png') }}"></div>
-
+        <div class="certx2-card"><img src="{{ asset('website/images/certifications/mcaip.png') }}"></div>
+        <div class="certx2-card"><img src="{{ asset('website/images/certifications/msait.png') }}"></div>
         <!-- ROW 2 -->
-        <div class="certx2-card"><img src="{{ asset('website/images/certifications/msoffice.png') }}"></div>
         <div class="certx2-card"><img src="{{ asset('website/images/certifications/ms100.png') }}"></div>
         <div class="certx2-card"><img src="{{ asset('website/images/certifications/ms101.png') }}"></div>
         <div class="certx2-card"><img src="{{ asset('website/images/certifications/md101.png') }}"></div>
@@ -135,8 +134,6 @@
         <div class="certx2-card"><img src="{{ asset('website/images/certifications/de.png') }}"></div>
 
         <!-- ROW 4 -->
-        <div class="certx2-card"><img src="{{ asset('website/images/certifications/mcaip.png') }}"></div>
-        <div class="certx2-card"><img src="{{ asset('website/images/certifications/msait.png') }}"></div>
         <div class="certx2-card"><img src="{{ asset('website/images/certifications/ase.png') }}"></div>
         <div class="certx2-card"><img src="{{ asset('website/images/certifications/sa.png') }}"></div>
         <div class="certx2-card"><img src="{{ asset('website/images/certifications/soa.png') }}"></div>
@@ -146,6 +143,8 @@
 
         <!-- ROW 5 -->
         <div class="certx2-card"><img src="{{ asset('website/images/certifications/aeda.png') }}"></div>
+        <div class="certx2-card"><img src="{{ asset('website/images/certifications/msexcel.png') }}"></div>
+        <div class="certx2-card"><img src="{{ asset('website/images/certifications/msoffice.png') }}"></div>
         <div class="certx2-card"><img src="{{ asset('website/images/certifications/learn100.png') }}"></div>
         <div class="certx2-card"><img src="{{ asset('website/images/certifications/s500sr.png') }}"></div>
         <div class="certx2-card"><img src="{{ asset('website/images/certifications/xcd.png') }}"></div>
@@ -157,9 +156,9 @@
       <div class="certx2-featured mt-5" data-aos="zoom-in-up" data-aos-duration="1000">
 
         <!-- LEFT LOGO -->
-        <div class="certx2-featured-badge" data-aos="flip-left">
+        {{-- <div class="certx2-featured-badge" data-aos="flip-left">
           <img src="{{ asset('website/images/certifications/comptia.png') }}">
-        </div>
+        </div> --}}
 
         <!-- RIGHT CONTENT -->
         <div class="certx2-featured-content">
@@ -185,9 +184,9 @@
       <div class="certx2-featured mt-5" data-aos="zoom-in-up" data-aos-duration="1000">
 
         <!-- LEFT LOGO -->
-        <div class="certx2-featured-badge" data-aos="flip-left">
+        {{-- <div class="certx2-featured-badge" data-aos="flip-left">
           <img src="{{ asset('website/images/certifications/pecb.png') }}">
-        </div>
+        </div> --}}
 
         <!-- RIGHT CONTENT -->
         <div class="certx2-featured-content">
@@ -214,9 +213,9 @@
       <div class="certx2-featured mt-5" data-aos="zoom-in-up" data-aos-duration="1000">
 
         <!-- LEFT LOGO -->
-        <div class="certx2-featured-badge1" data-aos="flip-left">
+        {{-- <div class="certx2-featured-badge1" data-aos="flip-left">
           <img src="{{ asset('website/images/certifications/aicerts.png') }}">
-        </div>
+        </div> --}}
 
         <!-- RIGHT CONTENT -->
         <div class="certx2-featured-content">
@@ -236,9 +235,9 @@
       <div class="certx2-featured mt-5" data-aos="zoom-in-up" data-aos-duration="1000">
 
         <!-- LEFT LOGO -->
-        <div class="certx2-featured-badge" data-aos="flip-left">
+        {{-- <div class="certx2-featured-badge" data-aos="flip-left">
           <img src="{{ asset('website/images/certifications/tableu.png') }}">
-        </div>
+        </div> --}}
 
         <!-- RIGHT CONTENT -->
         <div class="certx2-featured-content">
@@ -262,9 +261,9 @@
       <div class="certx2-featured mt-5" data-aos="zoom-in-up" data-aos-duration="1000">
 
         <!-- LEFT LOGO -->
-        <div class="certx2-featured-badge" data-aos="flip-left">
+        {{-- <div class="certx2-featured-badge" data-aos="flip-left">
           <img src="{{ asset('website/images/certifications/certnexus.png') }}">
-        </div>
+        </div> --}}
         <!-- RIGHT CONTENT -->
         <div class="certx2-featured-content">
           <!-- GRID -->
@@ -565,7 +564,8 @@
                 </p>
 
                 <div class="company-logo">
-                  <img src="https://cdn.sanity.io/images/3lljlnf0/production/dd4c9156b5be5a8be1b08fff3caf038ae3ed6df2-709x334.png">
+                  <img
+                    src="https://cdn.sanity.io/images/3lljlnf0/production/dd4c9156b5be5a8be1b08fff3caf038ae3ed6df2-709x334.png">
                 </div>
               </div>
 
