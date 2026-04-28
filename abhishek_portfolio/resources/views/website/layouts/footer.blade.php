@@ -208,6 +208,28 @@
 
 </div>
 
+<div class="new-stic-footer d-none d-md-block">
+    <div class="new-stic-container">
+
+        <!-- Left Side -->
+        <div class="new-stic-left">
+            <a href="#" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/abhiit-abhishek/30min'});return false;">Book Session</a>
+            <a href="{{ route('contact') }}">Contact Us</a>
+        </div>
+
+        <!-- Right Side -->
+        <div class="new-stic-right">
+            <a href="tel:+919891811593" class="icon-btn call">
+                <i class="fas fa-phone"></i> +91 98918 11593 (IN)
+            </a>
+
+            <a href="mailto:abhiit.abhishek@gmail.com" class="icon-btn email">
+                <i class="fas fa-envelope"></i> abhiit.abhishek@gmail.com
+            </a>
+        </div>
+
+    </div>
+</div>
 <!-- ===============>> scrollToTop start here <<================= -->
 <a href="#" class="scrollToTop scrollToTop--home1"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
 <!-- ===============>> scrollToTop ending here <<================= -->

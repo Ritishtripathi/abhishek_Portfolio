@@ -46,16 +46,35 @@
               <p class="name-subheader">
                 (Modern Workplace Technical Consultant | Trainer)
               </p>
-              <p class="banner__content-subtitle">MCT | MTA | MCSA | MCSE |
-                MCE | MTA | Copilot | Azure Admin | Power BI |
-                Tableau | Power Apps | Power Platform
-                | Azure Security | Identity Security & Governance | Microsoft Defender | Microsoft Intune | Azure Data
-                |
-                M365 Admin | SharePoint | Teams Admin | Cyber
-                Security | CompTIA | ISO | ITIL | Scrum Agile</p>
+              <p class="banner__content-subtitle">
+                <span>MCT</span> |
+                <span>MTA</span> |
+                <span>MCSA</span> |
+                <span>MCSE</span> |
+                <span>MCE</span> |
+                <span>MTA</span> |
+                <span>Copilot</span> |
+                <span>Azure Admin</span> |
+                <span>Power BI</span> |
+                <span>Tableau</span> |
+                <span>Power Apps</span> |
+                <span>Power Platform</span> |
+                <span>Azure Security</span> |
+                <span>Identity Security & Governance</span> |
+                <span>Microsoft Defender</span> |
+                <span>Microsoft Intune</span> |
+                <span>Azure Data</span> |
+                <span>M365 Admin</span> |
+                <span>SharePoint</span> |
+                <span>Teams Admin</span> |
+                <span>Cyber Security</span> |
+                <span>CompTIA</span> |
+                <span>ISO</span> |
+                <span>ITIL</span> |
+                <span>Scrum Agile</span>
+              </p>
             </div>
           </div>
-
         </div>
       </div>
     </div>
@@ -322,38 +341,65 @@
 
             <div class="skillmatrix-grid">
 
-              <div class="skillmatrix-card" data-aos="zoom-in"><img src="{{ asset('website/images/skills/azure.png') }}">
+              <div class="skillmatrix-card" data-aos="zoom-in">
+                <img src="{{ asset('website/images/skills/azure.png') }}">
               </div>
               <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="50"><img
-                  src="{{ asset('website/images/skills/powerbi.png') }}"></div>
+                  src="{{ asset('website/images/skills/s2.png') }}"></div>
               <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="100"><img
-                  src="{{ asset('website/images/skills/powerapps.png') }}"></div>
+                  src="{{ asset('website/images/skills/s3.png') }}"></div>
               <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="150"><img
-                  src="{{ asset('website/images/skills/powerplatform.png') }}"></div>
+                  src="{{ asset('website/images/skills/s4.png') }}"></div>
               <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="200"><img
-                  src="{{ asset('website/images/skills/m365.png') }}"></div>
+                  src="{{ asset('website/images/skills/s5.png') }}"></div>
               <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="250"><img
-                  src="{{ asset('website/images/skills/sharepoint.png') }}"></div>
+                  src="{{ asset('website/images/skills/s6.png') }}"></div>
               <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="300"><img
-                  src="{{ asset('website/images/skills/teams.png') }}"></div>
+                  src="{{ asset('website/images/skills/s7.png') }}"></div>
               <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="350"><img
-                  src="{{ asset('website/images/skills/tableau.png') }}"></div>
+                  src="{{ asset('website/images/skills/s8.png') }}"></div>
               <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="400"><img
-                  src="{{ asset('website/images/skills/security.png') }}"></div>
+                  src="{{ asset('website/images/skills/s9.png') }}"></div>
               <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="450"><img
-                  src="{{ asset('website/images/skills/onedrive.png') }}"></div>
+                  src="{{ asset('website/images/skills/s10.png') }}"></div>
 
               <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="150"><img
-                  src="{{ asset('website/images/skills/jira.png') }}"></div>
+                  src="{{ asset('website/images/skills/s11.png') }}"></div>
               <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="200"><img
-                  src="{{ asset('website/images/skills/project.png') }}"></div>
+                  src="{{ asset('website/images/skills/s12.png') }}"></div>
               <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="250"><img
-                  src="{{ asset('website/images/skills/visio.png') }}"></div>
+                  src="{{ asset('website/images/skills/s13.png') }}"></div>
               <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="300"><img
-                  src="{{ asset('website/images/skills/excel.png') }}"></div>
+                  src="{{ asset('website/images/skills/s14.png') }}"></div>
               <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="350"><img
-                  src="{{ asset('website/images/skills/googleanalytics.png') }}"></div>
+                  src="{{ asset('website/images/skills/s15.png') }}"></div>
 
+              <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="150"><img
+                  src="{{ asset('website/images/skills/s16.png') }}"></div>
+              <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="200"><img
+                  src="{{ asset('website/images/skills/s17.png') }}"></div>
+              <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="250"><img
+                  src="{{ asset('website/images/skills/s18.png') }}"></div>
+              <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="300"><img
+                  src="{{ asset('website/images/skills/s19.png') }}"></div>
+              <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="350"><img
+                  src="{{ asset('website/images/skills/s20.png') }}"></div>
+
+              <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="150"><img
+                  src="{{ asset('website/images/skills/s21.png') }}"></div>
+              <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="200"><img
+                  src="{{ asset('website/images/skills/s22.png') }}"></div>
+              <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="250"><img
+                  src="{{ asset('website/images/skills/s23.png') }}"></div>
+              <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="300"><img
+                  src="{{ asset('website/images/skills/s24.png') }}"></div>
+              <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="350"><img
+                  src="{{ asset('website/images/skills/s25.png') }}"></div>
+
+              <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="300"><img
+                  src="{{ asset('website/images/skills/s26.png') }}"></div>
+              <div class="skillmatrix-card" data-aos="zoom-in" data-aos-delay="350"><img
+                  src="{{ asset('website/images/skills/s27.png') }}"></div>
             </div>
 
           </div>

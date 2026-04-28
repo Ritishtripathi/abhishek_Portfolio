@@ -10006,12 +10006,14 @@ body {
 
 /* Grid */
 .skillmatrix-grid {
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
+  display: flex;
+  flex-wrap: wrap;
   gap: 14px;
+  justify-content: center; /* last row center */
 }
 
 .skillmatrix-card {
+  width: calc(12.5% - 14px); /* 8 cards per row */
   height: 95px;
   background: rgb(249, 249, 249);
   border: 1px solid rgba(255, 255, 255, .06);
@@ -10038,8 +10040,8 @@ body {
 
 /* Responsive */
 @media(max-width:991px) {
-  .skillmatrix-grid {
-    grid-template-columns: repeat(4, 1fr);
+  .skillmatrix-card {
+    width: calc(25% - 14px); /* 4 per row */
   }
 }
 
@@ -10058,11 +10060,11 @@ body {
   }
 
   .skillmatrix-grid {
-    grid-template-columns: repeat(3, 1fr);
     gap: 10px;
   }
 
   .skillmatrix-card {
+    width: calc(33.33% - 10px); /* 3 per row */
     height: 78px;
     border-radius: 12px;
   }
@@ -10071,7 +10073,6 @@ body {
     max-height: 65px;
   }
 }
-
 /* ===== NEW SECTION ===== */
 .certx2-section {
   padding: 80px 0;
@@ -10311,7 +10312,6 @@ body {
   font-family: Algerian, serif !important;
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.8;
   color: #1b1b1b;
   display: inline;
 }
@@ -10704,3 +10704,89 @@ body {
   left: 42%;
   animation-delay: 2
 }
+
+
+.banner__content-subtitle {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+
+/* har item ek saath rahe */
+.banner__content-subtitle span {
+  white-space: nowrap;
+}
+
+.new-stic-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    /*background: #000;*/
+    background: radial-gradient(circle at 20% 30%, #060606, #191a1b 70%);
+    color: #fff;
+    padding:2px 0;
+    z-index: 9999;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.new-stic-container {
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+/* Left Links */
+.new-stic-left a {
+    color: #ff009d;
+    text-decoration: none;
+    margin-right: 25px;
+    font-size: 12px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.new-stic-left a:hover {
+    color: #fe3b05;
+}
+
+/* Right Section */
+.new-stic-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon-btn {
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.icon-btn i {
+    font-size: 14px;
+    color: #ff2919 !important;
+}
+
+/* Hover Effects */
+.icon-btn:hover {
+    color: #f44336;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    .new-stic-container {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+}
+
+
